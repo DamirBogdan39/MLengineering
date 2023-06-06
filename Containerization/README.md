@@ -42,9 +42,9 @@ The previous code is contained in the file `script.sh` so to create an image all
 
 Working in an interactive mode lets use some of the basic linux commands, for example:
 
-`pwd` which returns `/iris-pytorch` meaning we are in the iris-pytorch directory specified in the Dockerfile
+`pwd` which returns `/iris-pytorch` meaning we are in the iris-pytorch directory specified in the Dockerfile.
 
-`whoami` which returns `non-root-user`
+`whoami` which returns `non-root-user` as specified in the Dockerfile.
 
 `id` which returns `uid=1000(non-root-user) gid=1000(non-root-user) groups=1000(non-root-user)`
 
