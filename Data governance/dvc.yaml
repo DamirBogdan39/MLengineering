@@ -1,0 +1,31 @@
+stages:
+  cleaning:
+    cmd: python3 cleaning.py
+    deps:
+    - cleaning.py
+    - data/data.csv
+    outs:
+    - data/df_clean.csv
+  preprocess:
+    cmd: python3 preprocessing.py
+    deps:
+    - data/df_clean.csv
+    outs:
+    - data/df_train.csv
+    - data/df_test.csv
+  train:
+    cmd: python3 train.py
+    deps:
+    - data/df_train.csv
+    outs:
+    - model
+  test:
+    cmd: python3 test.py
+    deps: 
+    - data/df_test.csv
+    - model
+    outs:
+    - confusion_matrix.png
+    metrics:
+    - metrics.json:
+        cache: false

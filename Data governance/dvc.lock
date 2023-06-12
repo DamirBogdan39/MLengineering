@@ -1,0 +1,54 @@
+schema: '2.0'
+stages:
+  cleaning:
+    cmd: python3 cleaning.py
+    deps:
+    - path: cleaning.py
+      md5: e08ff42c55d6bfb0dbb958e82c264c04
+      size: 347
+    - path: data/data.csv
+      md5: 2e145752c5e9df5fe367d25b6a9d9179
+      size: 124571
+    outs:
+    - path: data/df_clean.csv
+      md5: 8aa9cef97e0ffcacae908c7c2828fe72
+      size: 121358
+  preprocess:
+    cmd: python3 preprocessing.py
+    deps:
+    - path: data/df_clean.csv
+      md5: 8aa9cef97e0ffcacae908c7c2828fe72
+      size: 121358
+    outs:
+    - path: data/df_test.csv
+      md5: 1df5dad9dfb05423e6492be8645d069b
+      size: 101963
+    - path: data/df_train.csv
+      md5: 63c769d8aed65564d7ab3c86bd4a3dfc
+      size: 237149
+  train:
+    cmd: python3 train.py
+    deps:
+    - path: data/df_train.csv
+      md5: 63c769d8aed65564d7ab3c86bd4a3dfc
+      size: 237149
+    outs:
+    - path: model
+      md5: 983e0309857ae49408fc78464d314032
+      size: 4393
+  test:
+    cmd: python3 test.py
+    deps:
+    - path: data/df_test.csv
+      md5: 1df5dad9dfb05423e6492be8645d069b
+      size: 101963
+    - path: model
+      md5: 983e0309857ae49408fc78464d314032
+      size: 4393
+    outs:
+    - path: confusion_matrix.png
+      md5: 019672c81cf8f871856c38c569099746
+      size: 10318
+    - path: metrics.json
+      md5: 18a4dd5fa8f3a88eb3ec174538434416
+      size: 120
