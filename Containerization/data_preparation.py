@@ -1,3 +1,7 @@
+'''
+Data preparation and splitting
+'''
+
 #  Necessary imports
 import pandas as pd
 import numpy as np
@@ -34,7 +38,7 @@ y = df['Species'].values
 #  Train test split
 X_train, X_test, y_train, y_test = train_test_split(X,
                                                     y,
-                                                    test_size=0.2,
+                                                    test_size=0.5,
                                                     random_state=42)
 
 # Define variable names
@@ -51,5 +55,3 @@ data_test = np.column_stack((X_test, y_test))
 test_df = pd.DataFrame(data_test, columns=var_names[:X_test.shape[1]] + [var_names[-1]])
 test_df.to_csv('data/test_df.csv', index=False)
 
-
-#%%

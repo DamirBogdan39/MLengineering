@@ -1,55 +1,25 @@
+"""
+Testing
+"""
+
 # Necessary imports
-
+import joblib
 import pandas as pd
-import torch
-from torch.utils.data import DataLoader
+from sklearn.metrics import classification_report
 
-from model import Clf, device, batch_size, loss_fn
+# Load df_test from the saved CSV file
+df_test = pd.read_csv('data/test_df.csv')
 
+# Split df_test into X_test and y_test
+X_test = df_test.drop('Target', axis=1)
+y_test = df_test['Target']
 
-# Read the test_df
-df = pd.read_csv('data/test_df.csv')
-X = df.drop(['Target'],axis=1).values
-y = df['Target'].values
+# Load the saved model as 'clf'
+dtc = joblib.load('model')
 
+# Calculate the accuracy score of the decision tree classifier on the test data
+y_pred = dtc.predict(X_test)
 
-# Transforming the data into tensors
-X_test = torch.FloatTensor(X)
-y_test = torch.LongTensor(y)
+# Classification report
 
-
-# Defining test dataloader
-test_dataloader = DataLoader(list(zip(X_test, y_test)), shuffle=True, batch_size=batch_size)
-
-
-# Define testing
-def test(dataloader, model, loss_fn):
-    size = len(dataloader.dataset)
-    num_batches = len(dataloader)
-    model.eval()
-    test_loss, correct = 0, 0
-    with torch.no_grad():
-        for X, y in dataloader:
-            X, y = X.to(device), y.to(device)
-            pred = model(X)
-            test_loss += loss_fn(pred, y).item()
-            correct += (pred.argmax(1) == y).type(torch.float).sum().item()
-    test_loss /= num_batches
-    correct /= size
-    print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
-
-
-# Creating a model
-model = Clf()
-
-
-# Loading the weights of the NN
-model.load_state_dict(torch.load('model.pth'))
-
-
-# Testing with the model
-epochs = 10
-for epoch in range(epochs):
-    print(f"Epoch {epoch+1}\n-------------------------------")
-    test(test_dataloader, model, loss_fn)
-print("Done with testing!")
+print(classification_report(y_test, y_pred))

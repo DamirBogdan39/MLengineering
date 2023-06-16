@@ -1,16 +1,12 @@
-FROM ubuntu:latest
-
-# Install python and pip
-
-RUN apt-get update && apt-get install -y \
-    python3 \
-    python3-pip
-
-
+FROM python:3.9
 
 # Change working directory
 
-WORKDIR /iris-pytorch
+WORKDIR /iris-sklearn
+
+# Specify path to volume
+
+VOLUME /iris-sklearn/data
 
 # Copy everything
     
@@ -22,12 +18,15 @@ RUN pip install -r requirements.txt
 
 # Add a new user to run docker from 
 
-RUN useradd -u 1000 non-root-user 
+ARG USER_ID
+ARG GROUP_ID
 
-# Change to non-root priviledge user
+RUN addgroup --gid $GROUP_ID user
+RUN adduser --disabled-password --uid $USER_ID --gid $GROUP_ID user
 
-USER non-root-user
+# Set user to user 
+USER user
 
-# Run the test part of the neural network
+# Run the testing part to get an insight into the classification report
 
-CMD ["python3", "test.py"]
+CMD ["python", "test.py"]
