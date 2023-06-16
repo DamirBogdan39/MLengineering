@@ -1,9 +1,0 @@
-cmd: python3 train.py
-deps:
-- path: data/df_train.csv
-  md5: 63c769d8aed65564d7ab3c86bd4a3dfc
-  size: 237149
-outs:
-- path: model
-  md5: 983e0309857ae49408fc78464d314032
-  size: 4393
