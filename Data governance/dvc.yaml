@@ -1,0 +1,32 @@
+stages:
+  cleaning:
+    cmd: python3 cleaning.py
+    deps:
+    - cleaning.py
+    - data/data.csv
+    outs:
+    - data/df_clean.csv
+  preprocess:
+    cmd: python3 preprocessing.py
+    deps:
+    - data/df_clean.csv
+    - preprocessing.py
+    outs:
+    - data/df_train.csv
+    - data/df_test.csv
+  train:
+    cmd: python3 train.py
+    deps:
+    - train.py
+    - data/df_train.csv
+    outs:
+    - model
+  test:
+    cmd: python3 test.py
+    deps: 
+    - test.py
+    - data/df_test.csv
+    - model
+    metrics:
+    - metrics.json:
+        cache: false

@@ -1,0 +1,4 @@
+[core]
+    remote = data_governance_remote
+['remote "data_governance_remote"']
+    url = gdrive://1BMiJklZXeXhNcl_dpKHObb__A2SUVnRT

@@ -30,8 +30,23 @@ dvc init
 dvc remote add -d data_governance_remote gdrive://1BMiJklZXeXhNcl_dpKHObb__A2SUVnRT
 ```
 
+Running the following code:
+
+```bash
+dvc remote list
+```
+we get the output:
+
+```bash
+data_governance_remote  gdrive://1BMiJklZXeXhNcl_dpKHObb__A2SUVnRT
+```
+And we can see that our remote is connected.
+
+
+
+
 First command we run from dvc here is:
 
 ```bash
-dvc run cleaning -d cleaning.py data/data.csv -o data/df_clean.csv --no-exec python cleaning.py
+dvc run -n cleaning -d cleaning.py data/data.csv -o data/df_clean.csv --no-exec python cleaning.py 
 ```

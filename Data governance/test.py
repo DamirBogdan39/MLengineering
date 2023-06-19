@@ -5,10 +5,7 @@ Testing
 # Necessary imports
 import joblib
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import json
-from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 # Load df_test from the saved CSV file
@@ -36,21 +33,3 @@ with open('metrics.json', 'w') as outfile:
                "precision":precision,
                "recall":recall,
                "f1":f1}, outfile)
-
-
-# Calculate the confusion matrix
-cm = confusion_matrix(y_test, y_pred)
-
-# Create a seaborn heatmap of the confusion matrix
-sns.heatmap(cm, annot=True, cmap='RdPu', fmt='d', cbar=False)
-
-# Set labels, title, and axis ticks
-tick_labels = ['Benign', 'Malignant']
-plt.xlabel('Predicted', fontsize=12)
-plt.ylabel('True', fontsize=12)
-plt.title('Confusion Matrix', fontsize=14)
-plt.xticks(ticks=[0.5, 1.5], labels=tick_labels, fontsize=10, ha='center')
-plt.yticks(ticks=[0.5, 1.5], labels=tick_labels, fontsize=10, va='center')
-
-# Save the plot
-plt.savefig('confusion_matrix.png', dpi=80)

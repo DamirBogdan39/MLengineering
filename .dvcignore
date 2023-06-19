@@ -6,8 +6,6 @@ first_homework/
 Model deployment/
 Pipelines/
 README.md
-Data governance/model
-Data governance/confusion_matrix.png
 Data governance/cleaning.py
 Data governance/preprocessing.py
 Data governance/train.py
