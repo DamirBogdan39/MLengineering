@@ -1,0 +1,32 @@
+stages:
+  cleaning:
+    cmd: python3 ../../src/model_1/cleaning.py
+    deps:
+    - ../../src/model_1/cleaning.py
+    - ../../data/raw/data.csv
+    outs:
+    - ../../data/data_1/df_clean.csv
+  preprocess:
+    cmd: python3 ../../src/model_1/preprocessing.py
+    deps:
+    - ../../data/data_1/df_clean.csv
+    - ../../src/model_1/preprocessing.py
+    outs:
+    - ../../data/data_1/df_train.csv
+    - ../../data/data_1/df_test.csv
+  train:
+    cmd: python3 ../../src/model_1/train.py
+    deps:
+    - ../../src/model_1/train.py
+    - ../../data/data_1/df_train.csv
+    outs:
+    - ../../models/model_1
+  test:
+    cmd: python3 ../../src/model_1/test.py
+    deps: 
+    - ../../src/model_1/test.py
+    - ../../data/data_1/df_test.csv
+    - ../../models/model_1
+    metrics:
+    - ../../metrics/metrics_1.json:
+        cache: false

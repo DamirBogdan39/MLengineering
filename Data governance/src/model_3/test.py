@@ -9,14 +9,14 @@ import json
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 # Load df_test from the saved CSV file
-df_test = pd.read_csv('data/df_test.csv')
+df_test = pd.read_csv('../../data/data_3/df_test.csv')
 
 # Split df_test into X_test and y_test
 X_test = df_test.drop('diagnosis', axis=1)
 y_test = df_test['diagnosis']
 
 # Load the saved model as 'clf'
-clf = joblib.load('model')
+clf = joblib.load('../../models/model_3')
 
 # Calculate the accuracy score of the decision tree classifier on the test data
 y_pred = clf.predict(X_test)
@@ -28,7 +28,7 @@ recall = recall_score(y_test, y_pred)
 f1 = f1_score(y_test, y_pred)
 
 # Write to file
-with open('metrics.json', 'w') as outfile:
+with open('../../metrics/metrics_3.json', 'w') as outfile:
     json.dump({"accuracy":accuracy,
                "precision":precision,
                "recall":recall,

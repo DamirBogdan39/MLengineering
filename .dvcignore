@@ -6,7 +6,4 @@ first_homework/
 Model deployment/
 Pipelines/
 README.md
-Data governance/cleaning.py
-Data governance/preprocessing.py
-Data governance/train.py
-Data governance/test.py
+Data governance/src/

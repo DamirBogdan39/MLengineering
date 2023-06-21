@@ -6,7 +6,7 @@ Cleaning
 import pandas as pd
 
 # Importing the data
-df = pd.read_csv('./data/data.csv')
+df = pd.read_csv('../../data/raw/data.csv')
 
 # Remove 'id' column
 df = df.drop('id', axis=1)
@@ -15,4 +15,4 @@ df = df.drop('id', axis=1)
 df['diagnosis'] = df['diagnosis'].map({'M': 1, 'B': 0})
 
 # Save the data
-df.to_csv('data/df_clean.csv', index=False)
+df.to_csv('../../data/data_2/df_clean.csv', index=False)

@@ -1,0 +1,60 @@
+schema: '2.0'
+stages:
+  cleaning:
+    cmd: python3 ../../src/model_3/cleaning.py
+    deps:
+    - path: ../../data/raw/data.csv
+      md5: 2e145752c5e9df5fe367d25b6a9d9179
+      size: 124571
+    - path: ../../src/model_3/cleaning.py
+      md5: 9758f9cabbb203ed0a704203a9cf7f4f
+      size: 368
+    outs:
+    - path: ../../data/data_3/df_clean.csv
+      md5: 8aa9cef97e0ffcacae908c7c2828fe72
+      size: 121358
+  preprocess:
+    cmd: python3 ../../src/model_3/preprocessing.py
+    deps:
+    - path: ../../data/data_3/df_clean.csv
+      md5: 8aa9cef97e0ffcacae908c7c2828fe72
+      size: 121358
+    - path: ../../src/model_3/preprocessing.py
+      md5: 386c04d9ce37db6bd629739fb98da4bf
+      size: 1137
+    outs:
+    - path: ../../data/data_3/df_test.csv
+      md5: 265e7eaea43ece274cdcaad31788a795
+      size: 100886
+    - path: ../../data/data_3/df_train.csv
+      md5: f0d85bf2dc078c2073d227af2bec7acc
+      size: 234490
+  train:
+    cmd: python3 ../../src/model_3/train.py
+    deps:
+    - path: ../../data/data_3/df_train.csv
+      md5: f0d85bf2dc078c2073d227af2bec7acc
+      size: 234490
+    - path: ../../src/model_3/train.py
+      md5: e8995fae8be643c9e94f51516f191b4c
+      size: 496
+    outs:
+    - path: ../../models/model_3
+      md5: a2693c35091b887666b90c4913988fc8
+      size: 1883
+  test:
+    cmd: python3 ../../src/model_3/test.py
+    deps:
+    - path: ../../data/data_3/df_test.csv
+      md5: 265e7eaea43ece274cdcaad31788a795
+      size: 100886
+    - path: ../../models/model_3
+      md5: a2693c35091b887666b90c4913988fc8
+      size: 1883
+    - path: ../../src/model_3/test.py
+      md5: 14be47cf86ac1bf41d3e5bf73cef2ec7
+      size: 951
+    outs:
+    - path: ../../metrics/metrics_3.json
+      md5: 168a2894347007e767e4b5ceef7f7d46
+      size: 106
