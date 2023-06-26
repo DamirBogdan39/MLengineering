@@ -59,25 +59,36 @@ And we can see that our remote is connected.
 
 Next part is creating the pipeline that will run our experiment.
 
+stages:
+  cleaning:
+    cmd: python3 ../../src/model_1/cleaning.py
+    deps:
+    - ../../src/model_1/cleaning.py
+    - ../../data/raw/data.csv
+    outs:
+    - ../../data/data_1/df_clean.csv
+
 First command we run from dvc here is:
 
 ```bash
-dvc run -n cleaning -d cleaning.py data/data.csv -o data/df_clean.csv --no-exec python cleaning.py 
+dvc run -n cleaning -d ../../src/model_1/cleaning.py ../../data/raw/data.csv \
+ -o ../../data/data_1/df_clean.csv --no-exec python3 ../../src/model_1/cleaning.py 
 ```
 This command creates the first step in the pipeline that cleans the data hence is called `cleaning`. This is defined with the `-n`.
-The `-d` defines our dependecies that are the python script `cleaning.py` and our data set called `data.csv` which is in the data directory. 
-The output is a cleaned data set called `df_clean.csv` in the data directory. And the command to run this is `python cleaning.py`.
+The `-d` defines our dependecies that are the python script `cleaning.py` and our data set called `data.csv` which is in the data/raw directory. 
+The output is a cleaned data set called `df_clean.csv` in the data/data_1 directory. And the command to run this is `python cleaning.py`. 
 
-The rest of the pipeline can be found in te `dvc.yaml` file which were typed by hand. Much caution must be taken into account when creating the pipeline to define all the necessary dependencies and the outputs that a part of the pipeline produces for the pipeline to work as it is supposed to.
+The rest of the pipeline can be found in te `dvc.yaml` file which were typed by hand. Much caution must be taken into account when creating the pipeline to define all the necessary dependencies and the outputs that a part of the pipeline produces for the pipeline to work as it is supposed to. Different pipelines are stored in different directories so every pipeline has its path. `pipeline_1` has its src files in the `model_1` subdirectory of `src`. In the same manner, we have divided the data, the models and the metrics for every different pipeline.
 
-After the pipeline is created we can run the following command:
+After the pipelines are created we can run the following command:
 
 ```bash
-dvc repro
+dvc repro -R pipelines/
 ```
+The -R command goes recursively through every available dvc.yaml file and executes the pipeline.
 
 That will run the pipeline and produce the necessary results. 
-Results are stored in the `metrics.json` file and for this problem we chose the simple metrics: accuracy, precision, recall and f1 score.
+Results are stored in the `metrics_1.json`, `metrics_2.json` and `metrics_3.json` files and for this problem we chose the simple metrics: accuracy, precision, recall and f1 score.
 
 The results of this experiment are accessible with the command:
 
@@ -88,8 +99,10 @@ dvc metrics show
 And if everything is working correctly they have these values:
 
 ```bash
-Path                          accuracy    f1       precision    recall
-Data governance/metrics.json  0.94152     0.92308  0.89552      0.95238
+Path                                       accuracy    f1       precision    recall
+../Data governance/metrics/metrics_2.json  0.96491     0.95082  0.98305      0.92063
+../Data governance/metrics/metrics_1.json  0.94152     0.92308  0.89552      0.95238
+../Data governance/metrics/metrics_3.json  0.9883      0.98387  1.0          0.96825
 ```
 
 ## Sending the data to remote
@@ -99,7 +112,7 @@ After everything is setup and running it is time to send the data to remote stor
 The following line inside of the Data governance directory adds the data set to be dvc tracked:
 
 ```bash
-dvc add data/data.csv
+dvc add data/raw/data.csv
 ```
 
 This creates the `.gitignore` and `data.csv.dvc` files.
@@ -108,7 +121,7 @@ The file that will be pushed is `data.csv.dvc` that will keep track of our data 
 
 As we also do not want to push the cleaned, train and test data set we will add them to the `.gitignore` file and they are tracked with the dvc because they are a part of the pipeline.
 
-We also create a `.gitignore` file within the Data governance directory and add `model` to be ignored by the git. This demonstrates that not only data files can be tracked with dvc but binary files also. In case we had a really large model this would prove it self as very useful.
+We also create a `.gitignore` file within the Data governance directory and add `model_1`, `model_2` and `model_3` to be ignored by the git. This demonstrates that not only data files can be tracked with dvc but binary files also. In case we had a really large model this would prove it self as very useful.
 
 To add the data to the remote storate we execute the following command:
 
