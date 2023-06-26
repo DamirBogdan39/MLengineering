@@ -1,0 +1,15 @@
+artifact_uri: /home/damirbogdan39/experiment_tracking/src/experiments/../../mlruns/141447879702196841/05b9aa12145c4275801faadc9fad6ea7/artifacts
+end_time: 1687773828971
+entry_point_name: ''
+experiment_id: '141447879702196841'
+lifecycle_stage: active
+run_id: 05b9aa12145c4275801faadc9fad6ea7
+run_name: bemused-turtle-32
+run_uuid: 05b9aa12145c4275801faadc9fad6ea7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687773770077
+status: 3
+tags: []
+user_id: damirbogdan39

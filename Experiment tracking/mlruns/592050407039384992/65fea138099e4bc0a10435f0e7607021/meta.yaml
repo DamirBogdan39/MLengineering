@@ -1,0 +1,15 @@
+artifact_uri: /home/damirbogdan39/experiment_tracking/src/experiments/../../mlruns/592050407039384992/65fea138099e4bc0a10435f0e7607021/artifacts
+end_time: 1687773908640
+entry_point_name: ''
+experiment_id: '592050407039384992'
+lifecycle_stage: active
+run_id: 65fea138099e4bc0a10435f0e7607021
+run_name: dapper-horse-999
+run_uuid: 65fea138099e4bc0a10435f0e7607021
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687773902973
+status: 3
+tags: []
+user_id: damirbogdan39

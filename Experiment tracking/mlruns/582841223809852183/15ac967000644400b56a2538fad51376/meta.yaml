@@ -1,0 +1,15 @@
+artifact_uri: /home/damirbogdan39/experiment_tracking/src/experiments/../../mlruns/582841223809852183/15ac967000644400b56a2538fad51376/artifacts
+end_time: 1687773437814
+entry_point_name: ''
+experiment_id: '582841223809852183'
+lifecycle_stage: active
+run_id: 15ac967000644400b56a2538fad51376
+run_name: useful-trout-582
+run_uuid: 15ac967000644400b56a2538fad51376
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687773426037
+status: 3
+tags: []
+user_id: damirbogdan39
