@@ -1,0 +1,37 @@
+schema: '2.0'
+stages:
+  cleaning:
+    cmd: python3 ../../src/data/diff_feat_clean.py
+    deps:
+    - path: ../../data/raw/raw.csv
+      md5: 86a5c085a183d30d7b147af706b7f39c
+      size: 306546
+    - path: ../../src/data/diff_feat_clean.py
+      md5: 9e1e545f9de7f44c85d4a41a4f56ad8e
+      size: 1116
+    outs:
+    - path: ../../data/interim/diff_feat_clean_df.csv
+      md5: 67576c15f95e05bf9652d41ce33ac56e
+      size: 312130
+  preprocess:
+    cmd: python3 ../../src/features/diff_feat_preprocess.py
+    deps:
+    - path: ../../data/interim/diff_feat_clean_df.csv
+      md5: 67576c15f95e05bf9652d41ce33ac56e
+      size: 312130
+    - path: ../../src/features/diff_feat_preprocess.py
+      md5: cc06012d3a1c6386270c094cf2fb8924
+      size: 4379
+    outs:
+    - path: ../../data/processed/diff_feat_test_df_1.csv
+      md5: 45f89f998ec4339ceddb47aa87401027
+      size: 267242
+    - path: ../../data/processed/diff_feat_test_df_2.csv
+      md5: 5bbc9260d584dde4979f5a2e54c04028
+      size: 597711
+    - path: ../../data/processed/diff_feat_train_df_1.csv
+      md5: 8b574f49baba616715a41e04992a9e0d
+      size: 621662
+    - path: ../../data/processed/diff_feat_train_df_2.csv
+      md5: 309587f8f053fbad260329fe4ba9bf19
+      size: 1393212

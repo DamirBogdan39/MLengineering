@@ -1,0 +1,31 @@
+schema: '2.0'
+stages:
+  cleaning:
+    cmd: python3 ../../src/data/catboost_clean.py
+    deps:
+    - path: ../../data/raw/raw.csv
+      md5: 86a5c085a183d30d7b147af706b7f39c
+      size: 306546
+    - path: ../../src/data/catboost_clean.py
+      md5: aaa59f9b223d03181c49b318f376a4be
+      size: 1115
+    outs:
+    - path: ../../data/interim/catboost_clean_df.csv
+      md5: 67576c15f95e05bf9652d41ce33ac56e
+      size: 312130
+  preprocess:
+    cmd: python3 ../../src/features/catboost_preprocess.py
+    deps:
+    - path: ../../data/interim/catboost_clean_df.csv
+      md5: 67576c15f95e05bf9652d41ce33ac56e
+      size: 312130
+    - path: ../../src/features/catboost_preprocess.py
+      md5: 67346d8109f94be6e522c6f574b7caed
+      size: 2330
+    outs:
+    - path: ../../data/processed/catboost_test_df.csv
+      md5: 45f89f998ec4339ceddb47aa87401027
+      size: 267242
+    - path: ../../data/processed/catboost_train_df.csv
+      md5: 8b574f49baba616715a41e04992a9e0d
+      size: 621662

@@ -1,0 +1,26 @@
+stages:
+  cleaning:
+    cmd: python3 ../../src/data/diff_feat_clean.py
+    deps:
+    - ../../src/data/diff_feat_clean.py
+    - ../../data/raw/raw.csv
+    outs:
+    - ../../data/interim/diff_feat_clean_df.csv
+  preprocess:
+    cmd: python3 ../../src/features/diff_feat_preprocess.py
+    deps:
+    - ../../data/interim/diff_feat_clean_df.csv
+    - ../../src/features/diff_feat_preprocess.py
+    outs:
+    - ../../data/processed/diff_feat_train_df_1.csv
+    - ../../data/processed/diff_feat_test_df_1.csv
+    - ../../data/processed/diff_feat_train_df_2.csv
+    - ../../data/processed/diff_feat_test_df_2.csv
+  experiment:
+    cmd: python3 ../../src/experiments/different_features_experiment.py
+    deps:
+    - ../../src/experiments/different_features_experiment.py
+    - ../../data/processed/diff_feat_train_df_1.csv
+    - ../../data/processed/diff_feat_test_df_1.csv
+    - ../../data/processed/diff_feat_train_df_2.csv
+    - ../../data/processed/diff_feat_test_df_2.csv
