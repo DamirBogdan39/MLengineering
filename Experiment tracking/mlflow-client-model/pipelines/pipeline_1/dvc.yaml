@@ -1,0 +1,22 @@
+stages:
+  cleaning:
+    cmd: python3 ../../src/data/clean.py
+    deps:
+    - ../../src/data/clean.py
+    - ../../data/raw/raw.csv
+    outs:
+    - ../../data/interim/clean_df.csv
+  preprocess:
+    cmd: python3 ../../src/features/preprocess.py
+    deps:
+    - ../../data/interim/clean_df.csv
+    - ../../src/features/preprocess.py
+    outs:
+    - ../../data/processed/train_df.csv
+    - ../../data/processed/test_df.csv
+  experiment:
+    cmd: python3 ../../src/experiments/experiment.py
+    deps:
+    - ../../src/experiments/experiment.py
+    - ../../data/processed/train_df.csv
+    - ../../data/processed/test_df.csv

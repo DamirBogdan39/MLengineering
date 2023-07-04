@@ -13,9 +13,9 @@ services:
     command: bash -c "mlflow server --backend-store-uri sqlite:///mlruns/mlruns.db --default-artifact-root file:mlruns/artifacts --host 0.0.0.0 --port 5000"
 
   mlflow-client:
-    build: ./mlflow-client
-    image: mlflow-client-image:1.0.0 
-    container_name: "mlflow-client-container-1"
+    build: ./mlflow-client-model
+    image: mlflow-client-model-image:1.0.0
+    container_name: "mlflow-client-container-model-1"
     networks:
       - mlflow-network
     volumes:
