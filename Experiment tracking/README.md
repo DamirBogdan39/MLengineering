@@ -206,3 +206,8 @@ categorical_def = gen_features(
 We can see that they are almost identical but in the first one for the numerical features we used `median` strategy on the `SimpleImputer` and `MinMaxScaler` and on the second one we used `mean` and `StandardScaler`. These transformations were not enough to make a significant difference on our models performance.
 
 So as the best model we will keep the first one which used `median` and `MinMaxScaler`. This will be the model that will be pseudo-released.
+
+The model and all of its necessary code can be found on the `model` branch of this repository.
+
+The whole directory of `Experiment tracking` is created in a similar manner like this one so everything necessary can be obtained with running `docker-compose up` command from terminal.
+
