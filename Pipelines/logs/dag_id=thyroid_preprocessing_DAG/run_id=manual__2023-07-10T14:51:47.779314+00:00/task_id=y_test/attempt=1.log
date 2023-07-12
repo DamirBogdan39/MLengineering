@@ -1,0 +1,26 @@
+[2023-07-10T14:53:05.381+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.y_test manual__2023-07-10T14:51:47.779314+00:00 [queued]>
+[2023-07-10T14:53:05.408+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.y_test manual__2023-07-10T14:51:47.779314+00:00 [queued]>
+[2023-07-10T14:53:05.409+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-10T14:53:05.441+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): y_test> on 2023-07-10 14:51:47.779314+00:00
+[2023-07-10T14:53:05.453+0000] {standard_task_runner.py:57} INFO - Started process 1190 to run task
+[2023-07-10T14:53:05.465+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'y_test', 'manual__2023-07-10T14:51:47.779314+00:00', '--job-id', '310', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_dagfile.py', '--cfg-path', '/tmp/tmpw1h3mwjm']
+[2023-07-10T14:53:05.466+0000] {standard_task_runner.py:85} INFO - Job 310: Subtask y_test
+[2023-07-10T14:53:05.611+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.y_test manual__2023-07-10T14:51:47.779314+00:00 [running]> on host 93aa310e5d41
+[2023-07-10T14:53:05.798+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='y_test' AIRFLOW_CTX_EXECUTION_DATE='2023-07-10T14:51:47.779314+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-10T14:51:47.779314+00:00'
+[2023-07-10T14:53:05.830+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/preprocess/train_test_pull.py", line 34, in load_y_test
+    os.makedirs(save_directory, exist_ok=True)
+  File "/usr/local/lib/python3.7/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.7/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/data'
+[2023-07-10T14:53:05.848+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=thyroid_preprocessing_DAG, task_id=y_test, execution_date=20230710T145147, start_date=20230710T145305, end_date=20230710T145305
+[2023-07-10T14:53:05.875+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 310 for task y_test ([Errno 13] Permission denied: '/data'; 1190)
+[2023-07-10T14:53:05.925+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-10T14:53:05.964+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

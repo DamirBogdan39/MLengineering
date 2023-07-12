@@ -1,0 +1,13 @@
+[2023-07-11T12:33:04.376+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.fit_ordinal_imputer manual__2023-07-11T12:31:52.755201+00:00 [queued]>
+[2023-07-11T12:33:04.397+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.fit_ordinal_imputer manual__2023-07-11T12:31:52.755201+00:00 [queued]>
+[2023-07-11T12:33:04.398+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-11T12:33:04.423+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fit_ordinal_imputer> on 2023-07-11 12:31:52.755201+00:00
+[2023-07-11T12:33:04.435+0000] {standard_task_runner.py:57} INFO - Started process 988 to run task
+[2023-07-11T12:33:04.441+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'fit_ordinal_imputer', 'manual__2023-07-11T12:31:52.755201+00:00', '--job-id', '511', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_dagfile.py', '--cfg-path', '/tmp/tmpk1ej4bgi']
+[2023-07-11T12:33:04.441+0000] {standard_task_runner.py:85} INFO - Job 511: Subtask fit_ordinal_imputer
+[2023-07-11T12:33:04.533+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.fit_ordinal_imputer manual__2023-07-11T12:31:52.755201+00:00 [running]> on host 93aa310e5d41
+[2023-07-11T12:33:04.684+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='fit_ordinal_imputer' AIRFLOW_CTX_EXECUTION_DATE='2023-07-11T12:31:52.755201+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-11T12:31:52.755201+00:00'
+[2023-07-11T12:33:04.826+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-11T12:33:04.843+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=fit_ordinal_imputer, execution_date=20230711T123152, start_date=20230711T123304, end_date=20230711T123304
+[2023-07-11T12:33:04.902+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-11T12:33:04.945+0000] {taskinstance.py:2653} INFO - 2 downstream tasks scheduled from follow-on schedule check

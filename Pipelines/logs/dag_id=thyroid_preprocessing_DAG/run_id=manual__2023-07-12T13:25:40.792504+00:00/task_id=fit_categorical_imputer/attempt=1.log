@@ -1,0 +1,13 @@
+[2023-07-12T13:26:34.163+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.fit_categorical_imputer manual__2023-07-12T13:25:40.792504+00:00 [queued]>
+[2023-07-12T13:26:34.197+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.fit_categorical_imputer manual__2023-07-12T13:25:40.792504+00:00 [queued]>
+[2023-07-12T13:26:34.199+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T13:26:34.251+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fit_categorical_imputer> on 2023-07-12 13:25:40.792504+00:00
+[2023-07-12T13:26:34.268+0000] {standard_task_runner.py:57} INFO - Started process 3965 to run task
+[2023-07-12T13:26:34.276+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'fit_categorical_imputer', 'manual__2023-07-12T13:25:40.792504+00:00', '--job-id', '755', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpbcm43fr3']
+[2023-07-12T13:26:34.277+0000] {standard_task_runner.py:85} INFO - Job 755: Subtask fit_categorical_imputer
+[2023-07-12T13:26:34.431+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.fit_categorical_imputer manual__2023-07-12T13:25:40.792504+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T13:26:34.684+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='fit_categorical_imputer' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T13:25:40.792504+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T13:25:40.792504+00:00'
+[2023-07-12T13:26:34.826+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T13:26:34.849+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=fit_categorical_imputer, execution_date=20230712T132540, start_date=20230712T132634, end_date=20230712T132634
+[2023-07-12T13:26:34.911+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T13:26:34.966+0000] {taskinstance.py:2653} INFO - 2 downstream tasks scheduled from follow-on schedule check

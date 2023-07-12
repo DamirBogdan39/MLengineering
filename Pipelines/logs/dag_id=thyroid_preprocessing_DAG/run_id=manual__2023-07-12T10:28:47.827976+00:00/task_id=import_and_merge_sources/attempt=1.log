@@ -1,0 +1,22 @@
+[2023-07-12T10:29:03.157+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.import_and_merge_sources manual__2023-07-12T10:28:47.827976+00:00 [queued]>
+[2023-07-12T10:29:03.221+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.import_and_merge_sources manual__2023-07-12T10:28:47.827976+00:00 [queued]>
+[2023-07-12T10:29:03.222+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T10:29:03.309+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): import_and_merge_sources> on 2023-07-12 10:28:47.827976+00:00
+[2023-07-12T10:29:03.341+0000] {standard_task_runner.py:57} INFO - Started process 475 to run task
+[2023-07-12T10:29:03.361+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'import_and_merge_sources', 'manual__2023-07-12T10:28:47.827976+00:00', '--job-id', '554', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpipkidtri']
+[2023-07-12T10:29:03.366+0000] {standard_task_runner.py:85} INFO - Job 554: Subtask import_and_merge_sources
+[2023-07-12T10:29:03.652+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.import_and_merge_sources manual__2023-07-12T10:28:47.827976+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T10:29:04.179+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='import_and_merge_sources' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T10:28:47.827976+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T10:28:47.827976+00:00'
+[2023-07-12T10:29:04.856+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/data/import_data.py", line 37, in import_and_merge_sources
+    ti.xcom_push(key="file_path", value=file_path)
+NameError: name 'ti' is not defined
+[2023-07-12T10:29:04.892+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=thyroid_preprocessing_DAG, task_id=import_and_merge_sources, execution_date=20230712T102847, start_date=20230712T102903, end_date=20230712T102904
+[2023-07-12T10:29:04.940+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 554 for task import_and_merge_sources (name 'ti' is not defined; 475)
+[2023-07-12T10:29:05.019+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-12T10:29:05.146+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

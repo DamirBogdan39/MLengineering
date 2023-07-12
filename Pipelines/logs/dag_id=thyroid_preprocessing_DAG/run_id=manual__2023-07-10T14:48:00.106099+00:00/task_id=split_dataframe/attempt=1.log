@@ -1,0 +1,65 @@
+[2023-07-10T14:48:47.593+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.split_dataframe manual__2023-07-10T14:48:00.106099+00:00 [queued]>
+[2023-07-10T14:48:47.626+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.split_dataframe manual__2023-07-10T14:48:00.106099+00:00 [queued]>
+[2023-07-10T14:48:47.627+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-10T14:48:47.655+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): split_dataframe> on 2023-07-10 14:48:00.106099+00:00
+[2023-07-10T14:48:47.668+0000] {standard_task_runner.py:57} INFO - Started process 983 to run task
+[2023-07-10T14:48:47.678+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'split_dataframe', 'manual__2023-07-10T14:48:00.106099+00:00', '--job-id', '292', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_dagfile.py', '--cfg-path', '/tmp/tmpm39yem6s']
+[2023-07-10T14:48:47.678+0000] {standard_task_runner.py:85} INFO - Job 292: Subtask split_dataframe
+[2023-07-10T14:48:47.774+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.split_dataframe manual__2023-07-10T14:48:00.106099+00:00 [running]> on host 93aa310e5d41
+[2023-07-10T14:48:48.095+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='split_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2023-07-10T14:48:00.106099+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-10T14:48:00.106099+00:00'
+[2023-07-10T14:48:48.436+0000] {python.py:183} INFO - Done. Returned value was: (       age sex  on_thyroxine  ...  FTI_measured    FTI  referral_source
+1616  34.0   F             0  ...             1   73.0            other
+2110  35.0   M             0  ...             1  115.0             SVHC
+3683  21.0   F             0  ...             0    NaN            other
+1163  14.0   M             0  ...             1   98.0            other
+942   58.0   F             0  ...             1  107.0              SVI
+...    ...  ..           ...  ...           ...    ...              ...
+1130  60.0   F             0  ...             1  126.0            other
+1294  25.0   F             0  ...             1  101.0              SVI
+860   65.0   F             1  ...             1  171.0            other
+3507  73.0   F             1  ...             1  143.0            other
+3174  75.0   M             0  ...             1  171.0             SVHD
+
+[2640 rows x 27 columns],        age sex  on_thyroxine  ...  FTI_measured    FTI  referral_source
+270   26.0   F             0  ...             1   95.0            other
+2071  26.0   F             0  ...             1   95.0            other
+3660  52.0   M             1  ...             1  123.0            other
+3207  25.0   F             0  ...             1   81.0            other
+1675  29.0   F             0  ...             1  135.0            other
+...    ...  ..           ...  ...           ...    ...              ...
+3054  58.0   F             1  ...             1   72.0            other
+2649  15.0   M             0  ...             0    NaN            other
+2633  34.0   M             0  ...             1  102.0             SVHC
+3713  68.0   M             0  ...             1  102.0              SVI
+3061  62.0   F             0  ...             1  110.0              SVI
+
+[1132 rows x 27 columns],          Class
+1616  negative
+2110  negative
+3683  negative
+1163  negative
+942   negative
+...        ...
+1130  negative
+1294  negative
+860   negative
+3507  negative
+3174  negative
+
+[2640 rows x 1 columns],                         Class
+270                  negative
+2071  compensated_hypothyroid
+3660                 negative
+3207                 negative
+1675                 negative
+...                       ...
+3054                 negative
+2649                 negative
+2633                 negative
+3713                 negative
+3061                 negative
+
+[1132 rows x 1 columns])
+[2023-07-10T14:48:48.845+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=split_dataframe, execution_date=20230710T144800, start_date=20230710T144847, end_date=20230710T144848
+[2023-07-10T14:48:48.968+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-10T14:48:49.040+0000] {taskinstance.py:2653} INFO - 4 downstream tasks scheduled from follow-on schedule check

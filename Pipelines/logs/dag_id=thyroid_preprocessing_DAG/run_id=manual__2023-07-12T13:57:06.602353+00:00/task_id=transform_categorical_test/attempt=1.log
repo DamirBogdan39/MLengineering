@@ -1,0 +1,13 @@
+[2023-07-12T14:00:52.381+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.transform_categorical_test manual__2023-07-12T13:57:06.602353+00:00 [queued]>
+[2023-07-12T14:00:52.401+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.transform_categorical_test manual__2023-07-12T13:57:06.602353+00:00 [queued]>
+[2023-07-12T14:00:52.401+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T14:00:52.426+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_categorical_test> on 2023-07-12 13:57:06.602353+00:00
+[2023-07-12T14:00:52.436+0000] {standard_task_runner.py:57} INFO - Started process 4802 to run task
+[2023-07-12T14:00:52.442+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'transform_categorical_test', 'manual__2023-07-12T13:57:06.602353+00:00', '--job-id', '865', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpkm85fehj']
+[2023-07-12T14:00:52.442+0000] {standard_task_runner.py:85} INFO - Job 865: Subtask transform_categorical_test
+[2023-07-12T14:00:52.511+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.transform_categorical_test manual__2023-07-12T13:57:06.602353+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T14:00:52.674+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='transform_categorical_test' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T13:57:06.602353+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T13:57:06.602353+00:00'
+[2023-07-12T14:00:52.740+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T14:00:52.755+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=transform_categorical_test, execution_date=20230712T135706, start_date=20230712T140052, end_date=20230712T140052
+[2023-07-12T14:00:52.815+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T14:00:52.838+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

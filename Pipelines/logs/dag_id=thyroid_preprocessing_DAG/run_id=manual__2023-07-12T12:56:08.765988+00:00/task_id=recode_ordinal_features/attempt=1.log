@@ -1,0 +1,13 @@
+[2023-07-12T12:56:50.543+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.recode_ordinal_features manual__2023-07-12T12:56:08.765988+00:00 [queued]>
+[2023-07-12T12:56:50.646+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.recode_ordinal_features manual__2023-07-12T12:56:08.765988+00:00 [queued]>
+[2023-07-12T12:56:50.646+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T12:56:50.753+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): recode_ordinal_features> on 2023-07-12 12:56:08.765988+00:00
+[2023-07-12T12:56:50.863+0000] {standard_task_runner.py:57} INFO - Started process 3344 to run task
+[2023-07-12T12:56:50.911+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'recode_ordinal_features', 'manual__2023-07-12T12:56:08.765988+00:00', '--job-id', '712', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmprfa0c214']
+[2023-07-12T12:56:50.913+0000] {standard_task_runner.py:85} INFO - Job 712: Subtask recode_ordinal_features
+[2023-07-12T12:56:51.265+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.recode_ordinal_features manual__2023-07-12T12:56:08.765988+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T12:56:51.960+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='recode_ordinal_features' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T12:56:08.765988+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T12:56:08.765988+00:00'
+[2023-07-12T12:56:52.728+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T12:56:52.771+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=recode_ordinal_features, execution_date=20230712T125608, start_date=20230712T125650, end_date=20230712T125652
+[2023-07-12T12:56:52.906+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T12:56:53.078+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

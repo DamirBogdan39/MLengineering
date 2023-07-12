@@ -1,0 +1,26 @@
+[2023-07-11T10:42:23.117+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.train_numerical manual__2023-07-11T10:41:11.483337+00:00 [queued]>
+[2023-07-11T10:42:23.164+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.train_numerical manual__2023-07-11T10:41:11.483337+00:00 [queued]>
+[2023-07-11T10:42:23.165+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-11T10:42:23.223+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): train_numerical> on 2023-07-11 10:41:11.483337+00:00
+[2023-07-11T10:42:23.246+0000] {standard_task_runner.py:57} INFO - Started process 653 to run task
+[2023-07-11T10:42:23.308+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'train_numerical', 'manual__2023-07-11T10:41:11.483337+00:00', '--job-id', '443', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_dagfile.py', '--cfg-path', '/tmp/tmphdctcgir']
+[2023-07-11T10:42:23.314+0000] {standard_task_runner.py:85} INFO - Job 443: Subtask train_numerical
+[2023-07-11T10:42:23.681+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.train_numerical manual__2023-07-11T10:41:11.483337+00:00 [running]> on host 93aa310e5d41
+[2023-07-11T10:42:24.298+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='train_numerical' AIRFLOW_CTX_EXECUTION_DATE='2023-07-11T10:41:11.483337+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-11T10:41:11.483337+00:00'
+[2023-07-11T10:42:24.752+0000] {python.py:183} INFO - Done. Returned value was:        age    TSH   T3    TT4   T4U    FTI
+3045  63.0    NaN  NaN   52.0  0.85   61.0
+608   56.0   0.20  2.1  136.0   NaN    NaN
+2889  65.0   1.70  2.4   73.0  0.89   82.0
+2826  19.0   4.00  2.2   90.0  1.16   78.0
+1676  60.0  26.00  2.0   69.0  0.97   71.0
+...    ...    ...  ...    ...   ...    ...
+3120  57.0   0.20  2.0   91.0  1.18   77.0
+1089  75.0   0.30  2.1  117.0  0.95  123.0
+441   33.0   0.16  5.2  183.0  0.83  220.0
+228    1.0   1.60  1.8  119.0  1.05  113.0
+47    21.0    NaN  1.8  163.0  1.05  155.0
+
+[2640 rows x 6 columns]
+[2023-07-11T10:42:25.091+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=train_numerical, execution_date=20230711T104111, start_date=20230711T104223, end_date=20230711T104225
+[2023-07-11T10:42:25.232+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-11T10:42:25.303+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

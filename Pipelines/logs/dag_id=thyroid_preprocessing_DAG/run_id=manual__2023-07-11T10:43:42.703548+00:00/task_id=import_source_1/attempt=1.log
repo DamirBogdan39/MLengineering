@@ -1,0 +1,26 @@
+[2023-07-11T10:43:47.382+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.import_source_1 manual__2023-07-11T10:43:42.703548+00:00 [queued]>
+[2023-07-11T10:43:47.433+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.import_source_1 manual__2023-07-11T10:43:42.703548+00:00 [queued]>
+[2023-07-11T10:43:47.434+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-11T10:43:47.509+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): import_source_1> on 2023-07-11 10:43:42.703548+00:00
+[2023-07-11T10:43:47.522+0000] {standard_task_runner.py:57} INFO - Started process 722 to run task
+[2023-07-11T10:43:47.537+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'import_source_1', 'manual__2023-07-11T10:43:42.703548+00:00', '--job-id', '445', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_dagfile.py', '--cfg-path', '/tmp/tmpgyxhpe47']
+[2023-07-11T10:43:47.538+0000] {standard_task_runner.py:85} INFO - Job 445: Subtask import_source_1
+[2023-07-11T10:43:47.715+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.import_source_1 manual__2023-07-11T10:43:42.703548+00:00 [running]> on host 93aa310e5d41
+[2023-07-11T10:43:48.074+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='import_source_1' AIRFLOW_CTX_EXECUTION_DATE='2023-07-11T10:43:42.703548+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-11T10:43:42.703548+00:00'
+[2023-07-11T10:43:48.128+0000] {python.py:183} INFO - Done. Returned value was:      age sex on_thyroxine query_on_thyroxine  ... lithium goitre tumor hypopituitary
+0     41   F            f                  f  ...       f      f     f             f
+1     23   F            f                  f  ...       f      f     f             f
+2     46   M            f                  f  ...       f      f     f             f
+3     70   F            t                  f  ...       f      f     f             f
+4     70   F            f                  f  ...       f      f     f             f
+...   ..  ..          ...                ...  ...     ...    ...   ...           ...
+3767  30   F            f                  f  ...       f      f     t             f
+3768  68   F            f                  f  ...       f      f     f             f
+3769  74   F            f                  f  ...       f      f     f             f
+3770  72   M            f                  f  ...       f      f     f             f
+3771  64   F            f                  f  ...       f      f     f             f
+
+[3772 rows x 15 columns]
+[2023-07-11T10:43:48.320+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=import_source_1, execution_date=20230711T104342, start_date=20230711T104347, end_date=20230711T104348
+[2023-07-11T10:43:48.409+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-11T10:43:48.516+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

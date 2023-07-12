@@ -1,0 +1,37 @@
+[2023-07-12T10:49:02.134+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.recode_ordinal_features manual__2023-07-12T10:48:32.371417+00:00 [queued]>
+[2023-07-12T10:49:02.159+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.recode_ordinal_features manual__2023-07-12T10:48:32.371417+00:00 [queued]>
+[2023-07-12T10:49:02.160+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T10:49:02.193+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): recode_ordinal_features> on 2023-07-12 10:48:32.371417+00:00
+[2023-07-12T10:49:02.206+0000] {standard_task_runner.py:57} INFO - Started process 841 to run task
+[2023-07-12T10:49:02.221+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'recode_ordinal_features', 'manual__2023-07-12T10:48:32.371417+00:00', '--job-id', '564', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmp5tdfo7py']
+[2023-07-12T10:49:02.222+0000] {standard_task_runner.py:85} INFO - Job 564: Subtask recode_ordinal_features
+[2023-07-12T10:49:02.368+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.recode_ordinal_features manual__2023-07-12T10:48:32.371417+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T10:49:02.599+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='recode_ordinal_features' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T10:48:32.371417+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T10:48:32.371417+00:00'
+[2023-07-12T10:49:02.647+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'on_thyroxine'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/data/recode_ordinal.py", line 29, in recode_ordinal
+    df[col] = df[col].astype('category')
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'on_thyroxine'
+[2023-07-12T10:49:02.677+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=thyroid_preprocessing_DAG, task_id=recode_ordinal_features, execution_date=20230712T104832, start_date=20230712T104902, end_date=20230712T104902
+[2023-07-12T10:49:02.702+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 564 for task recode_ordinal_features ('on_thyroxine'; 841)
+[2023-07-12T10:49:02.751+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-12T10:49:02.782+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

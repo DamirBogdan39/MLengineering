@@ -1,0 +1,13 @@
+[2023-07-12T12:24:36.516+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.replace_questionmarks manual__2023-07-12T12:24:18.308430+00:00 [queued]>
+[2023-07-12T12:24:36.572+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.replace_questionmarks manual__2023-07-12T12:24:18.308430+00:00 [queued]>
+[2023-07-12T12:24:36.573+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T12:24:36.632+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): replace_questionmarks> on 2023-07-12 12:24:18.308430+00:00
+[2023-07-12T12:24:36.658+0000] {standard_task_runner.py:57} INFO - Started process 2623 to run task
+[2023-07-12T12:24:36.678+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'replace_questionmarks', 'manual__2023-07-12T12:24:18.308430+00:00', '--job-id', '644', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpwpstzje1']
+[2023-07-12T12:24:36.679+0000] {standard_task_runner.py:85} INFO - Job 644: Subtask replace_questionmarks
+[2023-07-12T12:24:36.798+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.replace_questionmarks manual__2023-07-12T12:24:18.308430+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T12:24:37.026+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='replace_questionmarks' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T12:24:18.308430+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T12:24:18.308430+00:00'
+[2023-07-12T12:24:37.179+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T12:24:37.212+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=replace_questionmarks, execution_date=20230712T122418, start_date=20230712T122436, end_date=20230712T122437
+[2023-07-12T12:24:37.295+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T12:24:37.376+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

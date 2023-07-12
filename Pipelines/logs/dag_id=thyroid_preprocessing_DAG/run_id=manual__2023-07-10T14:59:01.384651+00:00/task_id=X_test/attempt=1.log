@@ -1,0 +1,30 @@
+[2023-07-10T14:59:57.883+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.X_test manual__2023-07-10T14:59:01.384651+00:00 [queued]>
+[2023-07-10T15:00:11.848+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.X_test manual__2023-07-10T14:59:01.384651+00:00 [queued]>
+[2023-07-10T15:00:11.858+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-10T15:00:12.200+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): X_test> on 2023-07-10 14:59:01.384651+00:00
+[2023-07-10T15:00:12.368+0000] {standard_task_runner.py:57} INFO - Started process 1553 to run task
+[2023-07-10T15:00:12.487+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'X_test', 'manual__2023-07-10T14:59:01.384651+00:00', '--job-id', '336', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_dagfile.py', '--cfg-path', '/tmp/tmpkcyxhwrb']
+[2023-07-10T15:00:12.516+0000] {standard_task_runner.py:85} INFO - Job 336: Subtask X_test
+[2023-07-10T15:00:13.606+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.X_test manual__2023-07-10T14:59:01.384651+00:00 [running]> on host 93aa310e5d41
+[2023-07-10T15:00:14.695+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='X_test' AIRFLOW_CTX_EXECUTION_DATE='2023-07-10T14:59:01.384651+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-10T14:59:01.384651+00:00'
+[2023-07-10T15:00:15.388+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/preprocess/train_test_pull.py", line 18, in load_X_test
+    X_test.to_csv(save_path, index=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/core/generic.py", line 3482, in to_csv
+    storage_options=storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/formats/csvs.py", line 243, in save
+    storage_options=self.storage_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/data/raw/X_test.csv'
+[2023-07-10T15:00:15.522+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=thyroid_preprocessing_DAG, task_id=X_test, execution_date=20230710T145901, start_date=20230710T145958, end_date=20230710T150015
+[2023-07-10T15:00:15.633+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 336 for task X_test ([Errno 2] No such file or directory: '/data/raw/X_test.csv'; 1553)
+[2023-07-10T15:00:15.755+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-10T15:00:15.923+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

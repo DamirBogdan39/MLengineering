@@ -1,0 +1,13 @@
+[2023-07-12T13:00:54.816+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.split_dataframe manual__2023-07-12T13:00:25.544751+00:00 [queued]>
+[2023-07-12T13:00:54.844+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.split_dataframe manual__2023-07-12T13:00:25.544751+00:00 [queued]>
+[2023-07-12T13:00:54.844+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T13:00:54.879+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): split_dataframe> on 2023-07-12 13:00:25.544751+00:00
+[2023-07-12T13:00:54.894+0000] {standard_task_runner.py:57} INFO - Started process 3468 to run task
+[2023-07-12T13:00:54.904+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'split_dataframe', 'manual__2023-07-12T13:00:25.544751+00:00', '--job-id', '733', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpuzq0d4aw']
+[2023-07-12T13:00:54.907+0000] {standard_task_runner.py:85} INFO - Job 733: Subtask split_dataframe
+[2023-07-12T13:00:55.059+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.split_dataframe manual__2023-07-12T13:00:25.544751+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T13:00:55.258+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='split_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T13:00:25.544751+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T13:00:25.544751+00:00'
+[2023-07-12T13:00:55.478+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T13:00:55.496+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=split_dataframe, execution_date=20230712T130025, start_date=20230712T130054, end_date=20230712T130055
+[2023-07-12T13:00:55.559+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T13:00:55.618+0000] {taskinstance.py:2653} INFO - 2 downstream tasks scheduled from follow-on schedule check

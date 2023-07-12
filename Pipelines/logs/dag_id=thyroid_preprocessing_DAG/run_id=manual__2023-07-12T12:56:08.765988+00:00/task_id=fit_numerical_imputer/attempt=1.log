@@ -1,0 +1,13 @@
+[2023-07-12T12:57:59.719+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.fit_numerical_imputer manual__2023-07-12T12:56:08.765988+00:00 [queued]>
+[2023-07-12T12:58:00.019+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.fit_numerical_imputer manual__2023-07-12T12:56:08.765988+00:00 [queued]>
+[2023-07-12T12:58:00.025+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T12:58:00.473+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fit_numerical_imputer> on 2023-07-12 12:56:08.765988+00:00
+[2023-07-12T12:58:00.622+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'fit_numerical_imputer', 'manual__2023-07-12T12:56:08.765988+00:00', '--job-id', '720', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpko58r3ug']
+[2023-07-12T12:58:00.573+0000] {standard_task_runner.py:57} INFO - Started process 3385 to run task
+[2023-07-12T12:58:00.651+0000] {standard_task_runner.py:85} INFO - Job 720: Subtask fit_numerical_imputer
+[2023-07-12T12:58:02.205+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.fit_numerical_imputer manual__2023-07-12T12:56:08.765988+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T12:58:11.792+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='fit_numerical_imputer' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T12:56:08.765988+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T12:56:08.765988+00:00'
+[2023-07-12T12:58:16.621+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T12:58:16.721+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=fit_numerical_imputer, execution_date=20230712T125608, start_date=20230712T125759, end_date=20230712T125816
+[2023-07-12T12:58:17.178+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T12:58:17.747+0000] {taskinstance.py:2653} INFO - 2 downstream tasks scheduled from follow-on schedule check

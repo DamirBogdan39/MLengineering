@@ -1,0 +1,22 @@
+[2023-07-10T14:55:43.634+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.y_test manual__2023-07-10T14:54:39.615731+00:00 [queued]>
+[2023-07-10T14:55:43.739+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.y_test manual__2023-07-10T14:54:39.615731+00:00 [queued]>
+[2023-07-10T14:55:43.740+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-10T14:55:43.778+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): y_test> on 2023-07-10 14:54:39.615731+00:00
+[2023-07-10T14:55:43.817+0000] {standard_task_runner.py:57} INFO - Started process 1363 to run task
+[2023-07-10T14:55:43.832+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'y_test', 'manual__2023-07-10T14:54:39.615731+00:00', '--job-id', '323', '--raw', '--subdir', 'DAGS_FOLDER/preprocess_dagfile.py', '--cfg-path', '/tmp/tmpyz61mq4p']
+[2023-07-10T14:55:43.862+0000] {standard_task_runner.py:85} INFO - Job 323: Subtask y_test
+[2023-07-10T14:55:44.097+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.y_test manual__2023-07-10T14:54:39.615731+00:00 [running]> on host 93aa310e5d41
+[2023-07-10T14:55:44.793+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='y_test' AIRFLOW_CTX_EXECUTION_DATE='2023-07-10T14:54:39.615731+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-10T14:54:39.615731+00:00'
+[2023-07-10T14:55:44.872+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/preprocess/train_test_pull.py", line 36, in load_y_test
+    y_test.to_csv(save_path, index=False)
+AttributeError: 'NoneType' object has no attribute 'to_csv'
+[2023-07-10T14:55:44.909+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=thyroid_preprocessing_DAG, task_id=y_test, execution_date=20230710T145439, start_date=20230710T145543, end_date=20230710T145544
+[2023-07-10T14:55:44.977+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 323 for task y_test ('NoneType' object has no attribute 'to_csv'; 1363)
+[2023-07-10T14:55:45.049+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-10T14:55:45.170+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
