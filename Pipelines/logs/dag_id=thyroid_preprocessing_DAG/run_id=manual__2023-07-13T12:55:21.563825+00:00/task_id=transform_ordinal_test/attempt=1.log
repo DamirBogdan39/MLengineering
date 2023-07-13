@@ -1,0 +1,13 @@
+[2023-07-13T12:57:02.062+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.transform_ordinal_test manual__2023-07-13T12:55:21.563825+00:00 [queued]>
+[2023-07-13T12:57:02.275+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.transform_ordinal_test manual__2023-07-13T12:55:21.563825+00:00 [queued]>
+[2023-07-13T12:57:02.277+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-13T12:57:02.575+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_ordinal_test> on 2023-07-13 12:55:21.563825+00:00
+[2023-07-13T12:57:02.637+0000] {standard_task_runner.py:57} INFO - Started process 1265 to run task
+[2023-07-13T12:57:02.713+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'transform_ordinal_test', 'manual__2023-07-13T12:55:21.563825+00:00', '--job-id', '1028', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmprus1nbbw']
+[2023-07-13T12:57:02.714+0000] {standard_task_runner.py:85} INFO - Job 1028: Subtask transform_ordinal_test
+[2023-07-13T12:57:07.982+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.transform_ordinal_test manual__2023-07-13T12:55:21.563825+00:00 [running]> on host 93aa310e5d41
+[2023-07-13T12:57:35.352+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='transform_ordinal_test' AIRFLOW_CTX_EXECUTION_DATE='2023-07-13T12:55:21.563825+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-13T12:55:21.563825+00:00'
+[2023-07-13T12:57:36.791+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-13T12:57:36.923+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=transform_ordinal_test, execution_date=20230713T125521, start_date=20230713T125702, end_date=20230713T125736
+[2023-07-13T12:57:37.412+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-13T12:57:37.617+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

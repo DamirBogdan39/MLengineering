@@ -1,5 +1,5 @@
 """
-A dagfile containing everything necessary o create a airflow DAG
+A dagfile containing everything necessary to create an airflow DAG
 """
 
 # Importing dependecies
@@ -9,9 +9,7 @@ import airflow
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-from datetime import timedelta, datetime
-import os
-import pandas as pd
+from datetime import timedelta
 
 # Import the functions from the scripts
 
@@ -28,6 +26,11 @@ from src.preprocess.split_dataframe import split_dataframe
 from src.preprocess.split_X import *
 from src.preprocess.imputers import *
 from src.preprocess.scalers import *
+from src.preprocess.merge_preprocessed import *
+from src.preprocess.y_encoders import *
+
+from src.model.fit_model import fit_xgboost
+from src.model.predict_test import predict_test
 
 # Default configuration arguments
 
@@ -121,11 +124,15 @@ split_dataframe_task = PythonOperator(
     dag=dag,
 )
 
+# Task 9 - split X_train into ordinal, categorical and numerical features
+
 split_X_train_task= PythonOperator(
     task_id="split_X_train",
     python_callable=split_X_train,
     dag=dag,
 )
+
+# Task 10 - split X_test into ordinal, categorical and numerical features
 
 split_X_test_task= PythonOperator(
     task_id="split_X_test",
@@ -133,11 +140,15 @@ split_X_test_task= PythonOperator(
     dag=dag,
 )
 
+# Task 11 - fit ordinal imputer
+
 fit_ordinal_imputer_task = PythonOperator(
     task_id="fit_ordinal_imputer",
     python_callable=fit_ordinal_imputer,
     dag=dag,
 )
+
+# Task 12 - impute ordinal on X_train
 
 X_train_ordinal_impute_task = PythonOperator(
     task_id="X_train_ordinal_impute",
@@ -145,11 +156,15 @@ X_train_ordinal_impute_task = PythonOperator(
     dag=dag,
 )
 
+# Task 13 - impute ordinal on X_test
+
 X_test_ordinal_impute_task = PythonOperator(
     task_id="X_test_ordinal_impute",
     python_callable=X_test_ordinal_impute,
     dag=dag,
 )
+
+# Task 14 - fit numerical imputer
 
 fit_numerical_imputer_task = PythonOperator(
     task_id="fit_numerical_imputer",
@@ -157,11 +172,15 @@ fit_numerical_imputer_task = PythonOperator(
     dag=dag,
 )
 
+# Task 15 - impute numerical on X_train
+
 X_train_numerical_impute_task = PythonOperator(
     task_id="X_train_numerical_impute",
     python_callable=X_train_numerical_impute,
     dag=dag,
 )
+
+# Task 16 - impute numerical on X_test
 
 X_test_numerical_impute_task = PythonOperator(
     task_id="X_test_numerical_impute",
@@ -169,11 +188,15 @@ X_test_numerical_impute_task = PythonOperator(
     dag=dag,
 )
 
+# Task 17 - fit categorical imputer
+
 fit_categorical_imputer_task = PythonOperator(
     task_id="fit_categorical_imputer",
     python_callable=fit_categorical_imputer,
     dag=dag,
 )
+
+# Task 18 - impute categorical on X_train
 
 X_train_categorical_impute_task = PythonOperator(
     task_id="X_train_categorical_impute",
@@ -181,11 +204,15 @@ X_train_categorical_impute_task = PythonOperator(
     dag=dag,
 )
 
+# Task 19 - impute numerical on X_test
+ 
 X_test_categorical_impute_task = PythonOperator(
     task_id="X_test_categorical_impute",
     python_callable=X_test_categorical_impute,
     dag=dag,
 )
+
+# Task 20 - Fit scaler for ordinal features
 
 fit_ordinal_scaler_task = PythonOperator(
     task_id="fit_ordinal_scaler",
@@ -193,11 +220,15 @@ fit_ordinal_scaler_task = PythonOperator(
     dag=dag,
 )
 
+# Task 21 - Scale ordinal on X_train
+
 transform_ordinal_train_task = PythonOperator(
     task_id="transform_ordinal_train",
     python_callable=transform_ordinal_train,
     dag=dag,
 )
+
+# Task 22 - Scale ordinal on X_test
 
 transform_ordinal_test_task = PythonOperator(
     task_id="transform_ordinal_test",
@@ -205,11 +236,15 @@ transform_ordinal_test_task = PythonOperator(
     dag=dag,
 )
 
+# Task 23 - fit numerical scaler
+
 fit_numerical_scaler_task = PythonOperator(
     task_id="fit_numerical_scaler",
     python_callable=fit_numerical_scaler,
     dag=dag,
 )
+
+# Task 24 - Scale numerical on X_train
 
 transform_numerical_train_task = PythonOperator(
     task_id="transform_numerical_train",
@@ -217,11 +252,15 @@ transform_numerical_train_task = PythonOperator(
     dag=dag,
 )
 
+# Task 25 - Scale numerical on X_test
+
 transform_numerical_test_task = PythonOperator(
     task_id="transform_numerical_test",
     python_callable=transform_numerical_test,
     dag=dag,
 )
+
+# Task 26 - fit categorical encoder
 
 fit_categorical_encoder_task = PythonOperator(
     task_id="fit_categorical_encoder",
@@ -229,11 +268,15 @@ fit_categorical_encoder_task = PythonOperator(
     dag=dag,
 )
 
+# Task 27 - encode categorical on X_train
+
 transform_categorical_train_task = PythonOperator(
     task_id="transform_categorical_train",
     python_callable=transform_categorical_train,
     dag=dag,
 )
+
+# Task 28 - encode categorcial on X_test
 
 transform_categorical_test_task = PythonOperator(
     task_id="transform_categorical_test",
@@ -241,6 +284,53 @@ transform_categorical_test_task = PythonOperator(
     dag=dag,
 )
 
+# Task 29 - merge all features back to X_train
+
+merge_X_train_task = PythonOperator(
+    task_id="merge_X_train_processed",
+    python_callable=merge_X_train_processed, 
+    dag=dag,
+)
+
+# Task 30 - merge all features back to X_test
+
+merge_X_test_task = PythonOperator(
+    task_id="merge_X_test_processed",
+    python_callable=merge_X_test_processed, 
+    dag=dag,
+)
+
+# Task 31 - encode y_train
+
+encode_y_train_task = PythonOperator(
+    task_id="encode_y_train",
+    python_callable=encode_y_train,
+    dag=dag,
+)
+
+# Task 32 - encode y_test
+
+encode_y_test_task = PythonOperator(
+    task_id="encode_y_test",
+    python_callable=encode_y_test,
+    dag=dag,
+)
+
+# Task 33 - fit the model
+
+fit_xgboost_task = PythonOperator(
+    task_id="fit_xgboost",
+    python_callable=fit_xgboost,
+    dag=dag,
+)
+
+# Task 34 - predict on test data
+
+predict_test_task = PythonOperator(
+    task_id="predict_test",
+    python_callable=predict_test,
+    dag=dag,
+)
 
 
 # DAG dependencies
@@ -264,6 +354,7 @@ fit_numerical_imputer_task >> [X_train_numerical_impute_task, X_test_numerical_i
 fit_categorical_imputer_task >> [X_train_categorical_impute_task, X_test_categorical_impute_task]
 
 # Scalers
+
 # Ordinal
 [X_train_ordinal_impute_task, X_test_ordinal_impute_task] >> fit_ordinal_scaler_task
 fit_ordinal_scaler_task >> [transform_ordinal_train_task, transform_ordinal_test_task]
@@ -281,3 +372,12 @@ fit_numerical_scaler_task >> [transform_numerical_train_task, transform_numerica
 fit_categorical_encoder_task >> [transform_categorical_train_task, transform_categorical_test_task]
 [X_train_categorical_impute_task, X_test_categorical_impute_task] >> transform_categorical_train_task
 [X_train_categorical_impute_task, X_test_categorical_impute_task] >> transform_categorical_test_task
+
+# Merging
+[transform_ordinal_train_task, transform_categorical_train_task, transform_numerical_train_task] >> merge_X_train_task
+[transform_ordinal_test_task, transform_categorical_test_task, transform_numerical_test_task] >> merge_X_test_task
+split_dataframe_task >> [encode_y_train_task, encode_y_test_task]
+
+# Fit and predict model
+[merge_X_train_task, encode_y_train_task] >> fit_xgboost_task
+[merge_X_test_task, encode_y_test_task, fit_xgboost_task] >> predict_test_task

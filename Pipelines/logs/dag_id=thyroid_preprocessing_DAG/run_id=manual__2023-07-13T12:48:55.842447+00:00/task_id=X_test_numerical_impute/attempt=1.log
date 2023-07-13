@@ -1,0 +1,13 @@
+[2023-07-13T12:50:26.308+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.X_test_numerical_impute manual__2023-07-13T12:48:55.842447+00:00 [queued]>
+[2023-07-13T12:50:26.482+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.X_test_numerical_impute manual__2023-07-13T12:48:55.842447+00:00 [queued]>
+[2023-07-13T12:50:26.484+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-13T12:50:26.691+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): X_test_numerical_impute> on 2023-07-13 12:48:55.842447+00:00
+[2023-07-13T12:50:26.780+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'X_test_numerical_impute', 'manual__2023-07-13T12:48:55.842447+00:00', '--job-id', '986', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmp9fazdx3i']
+[2023-07-13T12:50:26.790+0000] {standard_task_runner.py:85} INFO - Job 986: Subtask X_test_numerical_impute
+[2023-07-13T12:50:26.762+0000] {standard_task_runner.py:57} INFO - Started process 1023 to run task
+[2023-07-13T12:50:27.258+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.X_test_numerical_impute manual__2023-07-13T12:48:55.842447+00:00 [running]> on host 93aa310e5d41
+[2023-07-13T12:50:28.188+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='X_test_numerical_impute' AIRFLOW_CTX_EXECUTION_DATE='2023-07-13T12:48:55.842447+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-13T12:48:55.842447+00:00'
+[2023-07-13T12:50:28.481+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-13T12:50:28.567+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=X_test_numerical_impute, execution_date=20230713T124855, start_date=20230713T125026, end_date=20230713T125028
+[2023-07-13T12:50:28.716+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-13T12:50:28.898+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

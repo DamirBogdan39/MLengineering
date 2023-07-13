@@ -1,0 +1,13 @@
+[2023-07-12T18:29:00.639+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.X_test_ordinal_impute manual__2023-07-12T18:28:05.760737+00:00 [queued]>
+[2023-07-12T18:29:00.722+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.X_test_ordinal_impute manual__2023-07-12T18:28:05.760737+00:00 [queued]>
+[2023-07-12T18:29:00.730+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T18:29:00.812+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): X_test_ordinal_impute> on 2023-07-12 18:28:05.760737+00:00
+[2023-07-12T18:29:00.878+0000] {standard_task_runner.py:57} INFO - Started process 928 to run task
+[2023-07-12T18:29:00.902+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'X_test_ordinal_impute', 'manual__2023-07-12T18:28:05.760737+00:00', '--job-id', '918', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpsey73u83']
+[2023-07-12T18:29:00.903+0000] {standard_task_runner.py:85} INFO - Job 918: Subtask X_test_ordinal_impute
+[2023-07-12T18:29:01.171+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.X_test_ordinal_impute manual__2023-07-12T18:28:05.760737+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T18:29:01.587+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='X_test_ordinal_impute' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T18:28:05.760737+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T18:28:05.760737+00:00'
+[2023-07-12T18:29:01.696+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T18:29:01.713+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=X_test_ordinal_impute, execution_date=20230712T182805, start_date=20230712T182900, end_date=20230712T182901
+[2023-07-12T18:29:01.768+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T18:29:01.860+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

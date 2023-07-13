@@ -1,0 +1,13 @@
+[2023-07-12T18:32:56.970+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.clean_age_feature manual__2023-07-12T18:32:34.756262+00:00 [queued]>
+[2023-07-12T18:32:56.986+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.clean_age_feature manual__2023-07-12T18:32:34.756262+00:00 [queued]>
+[2023-07-12T18:32:56.986+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-12T18:32:57.012+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): clean_age_feature> on 2023-07-12 18:32:34.756262+00:00
+[2023-07-12T18:32:57.021+0000] {standard_task_runner.py:57} INFO - Started process 1049 to run task
+[2023-07-12T18:32:57.030+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'clean_age_feature', 'manual__2023-07-12T18:32:34.756262+00:00', '--job-id', '937', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpxatantpa']
+[2023-07-12T18:32:57.030+0000] {standard_task_runner.py:85} INFO - Job 937: Subtask clean_age_feature
+[2023-07-12T18:32:57.145+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.clean_age_feature manual__2023-07-12T18:32:34.756262+00:00 [running]> on host 93aa310e5d41
+[2023-07-12T18:32:57.325+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='clean_age_feature' AIRFLOW_CTX_EXECUTION_DATE='2023-07-12T18:32:34.756262+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-12T18:32:34.756262+00:00'
+[2023-07-12T18:32:57.409+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-12T18:32:57.429+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=clean_age_feature, execution_date=20230712T183234, start_date=20230712T183256, end_date=20230712T183257
+[2023-07-12T18:32:57.492+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-12T18:32:57.596+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

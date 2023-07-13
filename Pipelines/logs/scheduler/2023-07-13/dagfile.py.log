@@ -1,0 +1,1246 @@
+[2023-07-13T10:29:07.780+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T10:29:07.781+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T10:29:07.782+0000] {logging_mixin.py:149} INFO - [2023-07-13T10:29:07.782+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T10:29:13.967+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T10:29:14.673+0000] {logging_mixin.py:149} INFO - [2023-07-13T10:29:14.673+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T10:29:14.725+0000] {logging_mixin.py:149} INFO - [2023-07-13T10:29:14.725+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T10:29:14.768+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 6.992 seconds
+[2023-07-13T11:55:35.629+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:55:35.635+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:55:35.643+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:55:35.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:55:40.212+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:55:40.552+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:55:40.548+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:55:40.642+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:55:40.642+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:55:40.721+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 5.097 seconds
+[2023-07-13T11:56:11.097+0000] {processor.py:157} INFO - Started process (PID=97) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:56:11.100+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:56:11.103+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:56:11.102+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:56:14.177+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:56:14.252+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:56:14.251+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:56:14.292+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:56:14.291+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:56:14.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.298 seconds
+[2023-07-13T11:56:44.504+0000] {processor.py:157} INFO - Started process (PID=163) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:56:44.506+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:56:44.507+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:56:44.507+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:56:47.453+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:56:47.529+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:56:47.528+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:56:47.573+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:56:47.573+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:56:47.654+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.156 seconds
+[2023-07-13T11:57:18.108+0000] {processor.py:157} INFO - Started process (PID=233) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:57:18.115+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:57:18.119+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:57:18.118+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:57:19.966+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:57:20.030+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:57:20.029+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:57:20.091+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:57:20.090+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:57:20.125+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.024 seconds
+[2023-07-13T11:57:50.370+0000] {processor.py:157} INFO - Started process (PID=299) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:57:50.376+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:57:50.377+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:57:50.377+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:57:53.069+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:57:53.192+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:57:53.191+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:57:53.271+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:57:53.270+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:57:53.351+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.990 seconds
+[2023-07-13T11:58:23.777+0000] {processor.py:157} INFO - Started process (PID=369) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:58:23.778+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:58:23.779+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:58:23.779+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:58:25.555+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:58:25.593+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:58:25.592+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:58:25.627+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:58:25.627+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:58:25.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.900 seconds
+[2023-07-13T11:58:56.592+0000] {processor.py:157} INFO - Started process (PID=442) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:58:56.598+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:58:56.599+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:58:56.599+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:58:58.614+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:58:58.697+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:58:58.697+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:58:58.800+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:58:58.799+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:58:58.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.271 seconds
+[2023-07-13T11:59:29.238+0000] {processor.py:157} INFO - Started process (PID=506) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:29.240+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:59:29.241+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:29.240+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:32.179+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:32.595+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:32.594+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:59:32.618+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:32.617+0000] {dag.py:2747} INFO - Creating ORM DAG for thyroid_preprocessing_DAG
+[2023-07-13T11:59:32.641+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:32.641+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:59:32.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.544 seconds
+[2023-07-13T11:59:45.734+0000] {processor.py:157} INFO - Started process (PID=526) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:45.736+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:59:45.738+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:45.737+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:46.823+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:46.836+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:46.836+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:59:46.871+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:46.871+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:59:46.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.187 seconds
+[2023-07-13T11:59:47.311+0000] {processor.py:157} INFO - Started process (PID=536) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:47.312+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T11:59:47.314+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:47.313+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:48.829+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T11:59:48.848+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:48.847+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T11:59:48.903+0000] {logging_mixin.py:149} INFO - [2023-07-13T11:59:48.903+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T11:59:48.938+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.633 seconds
+[2023-07-13T12:00:19.471+0000] {processor.py:157} INFO - Started process (PID=598) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:00:19.475+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:00:19.476+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:00:19.475+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:00:20.337+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:00:20.371+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:00:20.370+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:00:20.401+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:00:20.400+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:00:20.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.967 seconds
+[2023-07-13T12:00:51.110+0000] {processor.py:157} INFO - Started process (PID=660) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:00:51.126+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:00:51.128+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:00:51.128+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:00:56.903+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:00:56.973+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:00:56.973+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:00:57.071+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:00:57.071+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:00:57.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 6.082 seconds
+[2023-07-13T12:01:27.979+0000] {processor.py:157} INFO - Started process (PID=738) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:01:27.983+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:01:27.985+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:01:27.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:01:29.169+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:01:29.219+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:01:29.218+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:01:29.252+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:01:29.251+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:01:29.283+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.308 seconds
+[2023-07-13T12:01:59.400+0000] {processor.py:157} INFO - Started process (PID=802) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:01:59.402+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:01:59.403+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:01:59.403+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:02:00.646+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:02:00.690+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:02:00.690+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:02:00.727+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:02:00.727+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:02:00.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.385 seconds
+[2023-07-13T12:02:31.123+0000] {processor.py:157} INFO - Started process (PID=870) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:02:31.125+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:02:31.126+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:02:31.126+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:02:32.050+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:02:32.097+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:02:32.096+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:02:32.125+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:02:32.125+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:02:32.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.037 seconds
+[2023-07-13T12:03:02.489+0000] {processor.py:157} INFO - Started process (PID=931) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:03:02.493+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:03:02.494+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:03:02.493+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:03:03.639+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:03:03.674+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:03:03.674+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:03:03.702+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:03:03.701+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:03:03.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.250 seconds
+[2023-07-13T12:03:33.850+0000] {processor.py:157} INFO - Started process (PID=1000) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:03:33.852+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:03:33.853+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:03:33.852+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:03:34.747+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:03:34.784+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:03:34.784+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:03:34.812+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:03:34.811+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:03:34.835+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.989 seconds
+[2023-07-13T12:04:04.933+0000] {processor.py:157} INFO - Started process (PID=1068) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:04:04.934+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:04:04.935+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:04:04.935+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:04:05.787+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:04:05.819+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:04:05.819+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:04:05.849+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:04:05.849+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:04:05.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.942 seconds
+[2023-07-13T12:04:35.904+0000] {processor.py:157} INFO - Started process (PID=1136) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:04:35.907+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:04:35.908+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:04:35.908+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:04:36.820+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:04:36.868+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:04:36.867+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:04:36.901+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:04:36.901+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:04:36.932+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.033 seconds
+[2023-07-13T12:05:07.493+0000] {processor.py:157} INFO - Started process (PID=1198) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:05:07.500+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:05:07.501+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:05:07.500+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:05:08.451+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:05:08.485+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:05:08.484+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:05:08.517+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:05:08.517+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:05:08.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.055 seconds
+[2023-07-13T12:05:39.150+0000] {processor.py:157} INFO - Started process (PID=1262) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:05:39.152+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:05:39.153+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:05:39.152+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:05:40.048+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:05:40.100+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:05:40.099+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:05:40.128+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:05:40.128+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:05:40.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.009 seconds
+[2023-07-13T12:06:10.321+0000] {processor.py:157} INFO - Started process (PID=1322) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:06:10.323+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:06:10.325+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:06:10.324+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:06:12.612+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:06:12.731+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:06:12.730+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:06:12.785+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:06:12.785+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:06:12.828+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.514 seconds
+[2023-07-13T12:06:43.322+0000] {processor.py:157} INFO - Started process (PID=1386) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:06:43.324+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:06:43.325+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:06:43.325+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:06:44.813+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:06:44.884+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:06:44.884+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:06:44.931+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:06:44.930+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:06:44.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.671 seconds
+[2023-07-13T12:07:15.580+0000] {processor.py:157} INFO - Started process (PID=1450) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:07:15.582+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:07:15.583+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:07:15.583+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:07:17.258+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:07:17.361+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:07:17.361+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:07:17.461+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:07:17.461+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:07:17.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.953 seconds
+[2023-07-13T12:07:47.637+0000] {processor.py:157} INFO - Started process (PID=1511) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:07:47.639+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:07:47.641+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:07:47.640+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:07:48.668+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:07:48.702+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:07:48.701+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:07:48.731+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:07:48.730+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:07:48.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.143 seconds
+[2023-07-13T12:08:18.985+0000] {processor.py:157} INFO - Started process (PID=1573) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:08:18.987+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:08:18.987+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:08:18.987+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:08:19.974+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:08:20.014+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:08:20.013+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:08:20.041+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:08:20.041+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:08:20.070+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.090 seconds
+[2023-07-13T12:08:50.363+0000] {processor.py:157} INFO - Started process (PID=1636) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:08:50.364+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:08:50.366+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:08:50.365+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:08:51.302+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:08:51.334+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:08:51.334+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:08:51.362+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:08:51.362+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:08:51.384+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.027 seconds
+[2023-07-13T12:09:21.617+0000] {processor.py:157} INFO - Started process (PID=1698) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:09:21.619+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:09:21.620+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:09:21.619+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:09:22.503+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:09:22.537+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:09:22.537+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:09:22.564+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:09:22.564+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:09:22.585+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.976 seconds
+[2023-07-13T12:09:53.124+0000] {processor.py:157} INFO - Started process (PID=1765) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:09:53.125+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:09:53.127+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:09:53.126+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:09:54.090+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:09:54.133+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:09:54.132+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:09:54.165+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:09:54.164+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:09:54.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.076 seconds
+[2023-07-13T12:10:24.463+0000] {processor.py:157} INFO - Started process (PID=1829) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:10:24.468+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:10:24.473+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:10:24.473+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:10:27.041+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:10:27.153+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:10:27.152+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:10:27.242+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:10:27.242+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:10:27.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.859 seconds
+[2023-07-13T12:10:57.786+0000] {processor.py:157} INFO - Started process (PID=1892) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:10:57.788+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:10:57.790+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:10:57.789+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:10:58.800+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:10:58.832+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:10:58.831+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:10:58.858+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:10:58.858+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:10:58.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.100 seconds
+[2023-07-13T12:11:29.291+0000] {processor.py:157} INFO - Started process (PID=1963) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:11:29.292+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:11:29.293+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:11:29.293+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:11:30.172+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:11:30.220+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:11:30.220+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:11:30.249+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:11:30.248+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:11:30.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.988 seconds
+[2023-07-13T12:12:00.888+0000] {processor.py:157} INFO - Started process (PID=2027) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:12:00.895+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:12:00.897+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:12:00.897+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:12:02.190+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:12:02.282+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:12:02.282+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:12:02.317+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:12:02.317+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:12:02.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.464 seconds
+[2023-07-13T12:12:32.445+0000] {processor.py:157} INFO - Started process (PID=2091) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:12:32.446+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:12:32.447+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:12:32.446+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:12:33.341+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:12:33.375+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:12:33.375+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:12:33.402+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:12:33.402+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:12:33.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.985 seconds
+[2023-07-13T12:13:03.921+0000] {processor.py:157} INFO - Started process (PID=2153) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:13:03.923+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:13:03.924+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:13:03.924+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:13:04.743+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:13:04.778+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:13:04.777+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:13:04.804+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:13:04.804+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:13:04.830+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.915 seconds
+[2023-07-13T12:13:35.418+0000] {processor.py:157} INFO - Started process (PID=2215) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:13:35.421+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:13:35.422+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:13:35.422+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:13:36.238+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:13:36.271+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:13:36.270+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:13:36.298+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:13:36.297+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:13:36.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.914 seconds
+[2023-07-13T12:14:06.822+0000] {processor.py:157} INFO - Started process (PID=2277) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:14:06.823+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:14:06.824+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:14:06.824+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:14:07.665+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:14:07.698+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:14:07.697+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:14:07.726+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:14:07.726+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:14:07.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.932 seconds
+[2023-07-13T12:14:38.293+0000] {processor.py:157} INFO - Started process (PID=2341) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:14:38.296+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:14:38.297+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:14:38.297+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:14:39.125+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:14:39.155+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:14:39.155+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:14:39.180+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:14:39.180+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:14:39.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.916 seconds
+[2023-07-13T12:15:09.615+0000] {processor.py:157} INFO - Started process (PID=2404) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:15:09.617+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:15:09.618+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:15:09.618+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:15:10.460+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:15:10.491+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:15:10.491+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:15:10.516+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:15:10.516+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:15:10.539+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.932 seconds
+[2023-07-13T12:15:40.947+0000] {processor.py:157} INFO - Started process (PID=2467) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:15:40.948+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:15:40.949+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:15:40.949+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:15:41.762+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:15:41.795+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:15:41.794+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:15:41.820+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:15:41.820+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:15:41.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.899 seconds
+[2023-07-13T12:16:12.528+0000] {processor.py:157} INFO - Started process (PID=2532) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:16:12.530+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:16:12.532+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:16:12.531+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:16:13.340+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:16:13.371+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:16:13.370+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:16:13.397+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:16:13.397+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:16:13.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.899 seconds
+[2023-07-13T12:16:43.744+0000] {processor.py:157} INFO - Started process (PID=2594) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:16:43.745+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:16:43.746+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:16:43.746+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:16:44.560+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:16:44.593+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:16:44.593+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:16:44.628+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:16:44.628+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:16:44.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.911 seconds
+[2023-07-13T12:17:15.283+0000] {processor.py:157} INFO - Started process (PID=2659) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:17:15.284+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:17:15.285+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:17:15.285+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:17:16.360+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:17:16.396+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:17:16.396+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:17:16.426+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:17:16.426+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:17:16.462+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.185 seconds
+[2023-07-13T12:17:46.635+0000] {processor.py:157} INFO - Started process (PID=2721) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:17:46.636+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:17:46.637+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:17:46.637+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:17:47.523+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:17:47.555+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:17:47.554+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:17:47.581+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:17:47.581+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:17:47.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.975 seconds
+[2023-07-13T12:18:17.997+0000] {processor.py:157} INFO - Started process (PID=2783) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:18:17.998+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:18:17.999+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:18:17.999+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:18:19.039+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:18:19.070+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:18:19.069+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:18:19.094+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:18:19.094+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:18:19.115+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.123 seconds
+[2023-07-13T12:18:49.647+0000] {processor.py:157} INFO - Started process (PID=2849) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:18:49.648+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:18:49.649+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:18:49.649+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:18:50.955+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:18:50.991+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:18:50.991+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:18:51.017+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:18:51.017+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:18:51.041+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.399 seconds
+[2023-07-13T12:19:21.264+0000] {processor.py:157} INFO - Started process (PID=2914) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:19:21.265+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:19:21.266+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:19:21.266+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:19:22.291+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:19:22.328+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:19:22.327+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:19:22.361+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:19:22.361+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:19:22.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.132 seconds
+[2023-07-13T12:19:53.213+0000] {processor.py:157} INFO - Started process (PID=2982) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:19:53.215+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:19:53.216+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:19:53.216+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:19:54.202+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:19:54.237+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:19:54.237+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:19:54.270+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:19:54.270+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:19:54.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.102 seconds
+[2023-07-13T12:20:24.386+0000] {processor.py:157} INFO - Started process (PID=3049) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:20:24.387+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:20:24.388+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:20:24.388+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:20:25.486+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:20:25.523+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:20:25.522+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:20:25.554+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:20:25.554+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:20:25.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.199 seconds
+[2023-07-13T12:20:56.154+0000] {processor.py:157} INFO - Started process (PID=3111) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:20:56.155+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:20:56.156+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:20:56.156+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:20:57.404+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:20:57.519+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:20:57.518+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:20:57.553+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:20:57.552+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:20:57.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.428 seconds
+[2023-07-13T12:21:28.386+0000] {processor.py:157} INFO - Started process (PID=3179) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:21:28.388+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:21:28.389+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:21:28.389+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:21:29.595+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:21:29.636+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:21:29.635+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:21:29.667+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:21:29.667+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:21:29.694+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.314 seconds
+[2023-07-13T12:22:00.316+0000] {processor.py:157} INFO - Started process (PID=3241) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:22:00.318+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:22:00.319+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:22:00.319+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:22:01.372+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:22:01.428+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:22:01.428+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:22:01.459+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:22:01.458+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:22:01.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.172 seconds
+[2023-07-13T12:22:31.932+0000] {processor.py:157} INFO - Started process (PID=3311) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:22:31.934+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:22:31.935+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:22:31.935+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:22:32.971+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:22:33.008+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:22:33.007+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:22:33.036+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:22:33.036+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:22:33.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.143 seconds
+[2023-07-13T12:23:03.236+0000] {processor.py:157} INFO - Started process (PID=3373) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:23:03.238+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:23:03.239+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:23:03.239+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:23:04.197+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:23:04.232+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:23:04.231+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:23:04.262+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:23:04.262+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:23:04.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.057 seconds
+[2023-07-13T12:23:34.453+0000] {processor.py:157} INFO - Started process (PID=3436) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:23:34.454+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:23:34.455+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:23:34.455+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:23:35.425+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:23:35.468+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:23:35.467+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:23:35.497+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:23:35.497+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:23:35.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.071 seconds
+[2023-07-13T12:24:05.684+0000] {processor.py:157} INFO - Started process (PID=3499) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:24:05.686+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:24:05.686+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:24:05.686+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:24:06.592+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:24:06.639+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:24:06.639+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:24:06.674+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:24:06.673+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:24:06.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.018 seconds
+[2023-07-13T12:24:35.263+0000] {processor.py:157} INFO - Started process (PID=3560) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:24:35.265+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:24:35.266+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:24:35.266+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:24:36.348+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:24:36.342+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dagfile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dagfile.py", line 34, in <module>
+    from src.model.fit_model import fit_xgboost
+ImportError: cannot import name 'fit_xgboost' from 'src.model.fit_model' (/opt/airflow/dags/src/model/fit_model.py)
+[2023-07-13T12:24:36.349+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:24:36.372+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.119 seconds
+[2023-07-13T12:25:07.027+0000] {processor.py:157} INFO - Started process (PID=3621) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:25:07.030+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:25:07.031+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:25:07.031+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:25:07.992+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:25:07.989+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dagfile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dagfile.py", line 34, in <module>
+    from src.model.fit_model import fit_xgboost
+ImportError: cannot import name 'fit_xgboost' from 'src.model.fit_model' (/opt/airflow/dags/src/model/fit_model.py)
+[2023-07-13T12:25:07.992+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:25:08.016+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.993 seconds
+[2023-07-13T12:25:38.836+0000] {processor.py:157} INFO - Started process (PID=3685) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:25:38.838+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:25:38.839+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:25:38.838+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:25:40.075+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:25:40.074+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dagfile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dagfile.py", line 34, in <module>
+    from src.model.fit_model import fit_xgboost
+ImportError: cannot import name 'fit_xgboost' from 'src.model.fit_model' (/opt/airflow/dags/src/model/fit_model.py)
+[2023-07-13T12:25:40.076+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:25:40.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.267 seconds
+[2023-07-13T12:26:10.374+0000] {processor.py:157} INFO - Started process (PID=3747) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:26:10.380+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:26:10.381+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:26:10.381+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:26:11.643+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:26:11.641+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dagfile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dagfile.py", line 34, in <module>
+    from src.model.fit_model import fit_xgboost
+ImportError: cannot import name 'fit_xgboost' from 'src.model.fit_model' (/opt/airflow/dags/src/model/fit_model.py)
+[2023-07-13T12:26:11.644+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:26:11.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.303 seconds
+[2023-07-13T12:26:42.370+0000] {processor.py:157} INFO - Started process (PID=3810) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:26:42.375+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:26:42.376+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:26:42.375+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:26:43.690+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:26:43.863+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:26:43.861+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:26:43.893+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:26:43.893+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:26:43.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.559 seconds
+[2023-07-13T12:27:14.148+0000] {processor.py:157} INFO - Started process (PID=3875) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:27:14.151+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:27:14.152+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:27:14.151+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:27:15.255+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:27:15.289+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:27:15.288+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:27:15.317+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:27:15.317+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:27:15.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.194 seconds
+[2023-07-13T12:27:46.000+0000] {processor.py:157} INFO - Started process (PID=3939) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:27:46.003+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:27:46.004+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:27:46.004+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:27:47.602+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:27:47.649+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:27:47.648+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:27:47.688+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:27:47.688+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:27:47.720+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.725 seconds
+[2023-07-13T12:28:18.536+0000] {processor.py:157} INFO - Started process (PID=4002) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:28:18.537+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:28:18.538+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:28:18.538+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:28:19.614+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:28:19.657+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:28:19.656+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:28:19.713+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:28:19.713+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:28:19.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.204 seconds
+[2023-07-13T12:28:50.244+0000] {processor.py:157} INFO - Started process (PID=4066) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:28:50.248+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:28:50.251+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:28:50.251+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:28:51.594+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:28:51.640+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:28:51.639+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:28:51.671+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:28:51.671+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:28:51.699+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.460 seconds
+[2023-07-13T12:29:21.954+0000] {processor.py:157} INFO - Started process (PID=4133) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:29:21.956+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:29:21.957+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:29:21.957+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:29:22.893+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:29:22.923+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:29:22.923+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:29:22.948+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:29:22.948+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:29:22.970+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.022 seconds
+[2023-07-13T12:29:53.289+0000] {processor.py:157} INFO - Started process (PID=4195) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:29:53.291+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:29:53.292+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:29:53.292+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:29:54.236+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:29:54.272+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:29:54.271+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:29:54.299+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:29:54.298+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:29:54.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.041 seconds
+[2023-07-13T12:30:24.696+0000] {processor.py:157} INFO - Started process (PID=4258) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:30:24.697+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:30:24.698+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:30:24.698+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:30:25.961+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:30:26.106+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:30:26.105+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:30:26.223+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:30:26.223+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:30:26.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.578 seconds
+[2023-07-13T12:30:56.774+0000] {processor.py:157} INFO - Started process (PID=4320) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:30:56.776+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:30:56.777+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:30:56.777+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:30:57.815+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:30:57.848+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:30:57.846+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:30:57.875+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:30:57.875+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:30:57.898+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.134 seconds
+[2023-07-13T12:31:28.516+0000] {processor.py:157} INFO - Started process (PID=4382) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:31:28.519+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:31:28.524+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:31:28.524+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:31:29.712+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:31:29.749+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:31:29.748+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:31:29.779+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:31:29.779+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:31:29.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.294 seconds
+[2023-07-13T12:32:00.158+0000] {processor.py:157} INFO - Started process (PID=4444) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:32:00.160+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:32:00.161+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:32:00.161+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:32:02.204+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:32:02.239+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:32:02.238+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:32:02.270+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:32:02.270+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:32:02.297+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.152 seconds
+[2023-07-13T12:32:32.419+0000] {processor.py:157} INFO - Started process (PID=4511) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:32:32.425+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:32:32.426+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:32:32.426+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:32:33.446+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:32:33.489+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:32:33.488+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:32:33.516+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:32:33.516+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:32:33.546+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.138 seconds
+[2023-07-13T12:33:04.013+0000] {processor.py:157} INFO - Started process (PID=4572) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:33:04.014+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:33:04.014+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:33:04.014+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:33:04.939+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:33:04.974+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:33:04.973+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:33:05.007+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:33:05.007+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:33:05.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.069 seconds
+[2023-07-13T12:33:35.709+0000] {processor.py:157} INFO - Started process (PID=4646) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:33:35.710+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:33:35.711+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:33:35.711+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:33:36.753+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:33:36.798+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:33:36.798+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:33:36.827+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:33:36.826+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:33:36.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.149 seconds
+[2023-07-13T12:34:07.745+0000] {processor.py:157} INFO - Started process (PID=4708) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:34:07.746+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:34:07.747+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:34:07.747+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:34:08.732+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:34:08.765+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:34:08.765+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:34:08.795+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:34:08.795+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:34:08.819+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.081 seconds
+[2023-07-13T12:34:39.463+0000] {processor.py:157} INFO - Started process (PID=4772) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:34:39.465+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:34:39.466+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:34:39.465+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:34:40.371+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:34:40.407+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:34:40.406+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:34:40.458+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:34:40.458+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:34:40.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.034 seconds
+[2023-07-13T12:35:11.030+0000] {processor.py:157} INFO - Started process (PID=4834) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:35:11.044+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:35:11.045+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:35:11.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:35:12.116+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:35:12.159+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:35:12.159+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:35:12.196+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:35:12.195+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:35:12.220+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.195 seconds
+[2023-07-13T12:35:42.338+0000] {processor.py:157} INFO - Started process (PID=4901) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:35:42.340+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:35:42.341+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:35:42.341+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:35:43.198+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:35:43.232+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:35:43.232+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:35:43.257+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:35:43.257+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:35:43.282+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.948 seconds
+[2023-07-13T12:36:13.762+0000] {processor.py:157} INFO - Started process (PID=4963) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:36:13.764+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:36:13.765+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:36:13.765+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:36:14.693+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:36:14.729+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:36:14.729+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:36:14.756+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:36:14.756+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:36:14.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.027 seconds
+[2023-07-13T12:36:45.402+0000] {processor.py:157} INFO - Started process (PID=5028) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:36:45.405+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:36:45.407+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:36:45.406+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:36:46.559+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:36:46.598+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:36:46.597+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:36:46.628+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:36:46.627+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:36:46.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.256 seconds
+[2023-07-13T12:37:17.335+0000] {processor.py:157} INFO - Started process (PID=5096) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:37:17.337+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:37:17.338+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:37:17.337+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:37:18.406+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:37:18.440+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:37:18.440+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:37:18.482+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:37:18.482+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:37:18.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.185 seconds
+[2023-07-13T12:37:48.619+0000] {processor.py:157} INFO - Started process (PID=5158) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:37:48.621+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:37:48.622+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:37:48.622+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:37:49.613+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:37:49.662+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:37:49.661+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:37:49.701+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:37:49.701+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:37:49.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.129 seconds
+[2023-07-13T12:38:20.235+0000] {processor.py:157} INFO - Started process (PID=5221) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:38:20.236+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:38:20.238+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:38:20.237+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:38:21.185+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:38:21.227+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:38:21.227+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:38:21.256+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:38:21.255+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:38:21.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.048 seconds
+[2023-07-13T12:38:52.196+0000] {processor.py:157} INFO - Started process (PID=5284) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:38:52.199+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:38:52.201+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:38:52.201+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:38:55.427+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:38:55.503+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:38:55.503+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:38:55.547+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:38:55.547+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:38:55.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.397 seconds
+[2023-07-13T12:39:25.909+0000] {processor.py:157} INFO - Started process (PID=5351) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:39:25.912+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:39:25.914+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:39:25.913+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:39:27.534+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:39:27.586+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:39:27.586+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:39:27.628+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:39:27.627+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:39:27.662+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.759 seconds
+[2023-07-13T12:39:58.367+0000] {processor.py:157} INFO - Started process (PID=5416) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:39:58.369+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:39:58.370+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:39:58.369+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:39:59.544+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:39:59.581+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:39:59.581+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:39:59.617+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:39:59.617+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:39:59.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.280 seconds
+[2023-07-13T12:40:29.961+0000] {processor.py:157} INFO - Started process (PID=5478) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:40:29.963+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:40:29.965+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:40:29.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:40:31.366+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:40:31.403+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:40:31.402+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:40:31.434+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:40:31.434+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:40:31.456+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.504 seconds
+[2023-07-13T12:41:01.685+0000] {processor.py:157} INFO - Started process (PID=5542) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:41:01.687+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:41:01.688+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:41:01.688+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:41:04.017+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:41:04.054+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:41:04.053+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:41:04.096+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:41:04.096+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:41:04.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.454 seconds
+[2023-07-13T12:41:34.357+0000] {processor.py:157} INFO - Started process (PID=5610) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:41:34.360+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:41:34.362+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:41:34.362+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:41:37.575+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:41:37.770+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:41:37.769+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:41:37.825+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:41:37.824+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:41:37.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.541 seconds
+[2023-07-13T12:42:08.474+0000] {processor.py:157} INFO - Started process (PID=5678) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:42:08.475+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:42:08.476+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:42:08.476+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:42:09.482+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:42:09.521+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:42:09.520+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:42:09.552+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:42:09.552+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:42:09.582+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.114 seconds
+[2023-07-13T12:42:40.304+0000] {processor.py:157} INFO - Started process (PID=5740) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:42:40.305+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:42:40.306+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:42:40.306+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:42:41.373+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:42:41.409+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:42:41.408+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:42:41.437+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:42:41.437+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:42:41.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.172 seconds
+[2023-07-13T12:43:11.841+0000] {processor.py:157} INFO - Started process (PID=5808) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:43:11.843+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:43:11.844+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:43:11.843+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:43:12.685+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:43:12.716+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:43:12.715+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:43:12.758+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:43:12.758+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:43:12.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.950 seconds
+[2023-07-13T12:43:42.988+0000] {processor.py:157} INFO - Started process (PID=5871) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:43:42.989+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:43:42.991+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:43:42.990+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:43:44.006+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:43:44.052+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:43:44.052+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:43:44.083+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:43:44.083+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:43:44.104+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.124 seconds
+[2023-07-13T12:44:14.229+0000] {processor.py:157} INFO - Started process (PID=5937) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:44:14.231+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:44:14.233+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:44:14.232+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:44:15.193+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:44:15.223+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:44:15.223+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:44:15.343+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:44:15.343+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:44:15.366+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.145 seconds
+[2023-07-13T12:44:45.406+0000] {processor.py:157} INFO - Started process (PID=5995) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:44:45.408+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:44:45.409+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:44:45.409+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:44:46.271+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:44:46.303+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:44:46.302+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:44:46.330+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:44:46.330+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:44:46.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.952 seconds
+[2023-07-13T12:45:16.635+0000] {processor.py:157} INFO - Started process (PID=6057) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:45:16.638+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:45:16.639+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:45:16.639+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:45:17.603+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:45:17.733+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:45:17.733+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:45:17.763+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:45:17.763+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:45:17.789+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.161 seconds
+[2023-07-13T12:45:48.105+0000] {processor.py:157} INFO - Started process (PID=6120) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:45:48.107+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:45:48.108+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:45:48.108+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:45:49.374+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:45:49.488+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:45:49.485+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:45:49.572+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:45:49.571+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:45:49.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.520 seconds
+[2023-07-13T12:46:19.962+0000] {processor.py:157} INFO - Started process (PID=6185) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:46:19.965+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:46:19.966+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:46:19.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:46:20.914+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:46:20.949+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:46:20.948+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:46:20.978+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:46:20.978+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:46:21.100+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.143 seconds
+[2023-07-13T12:46:52.086+0000] {processor.py:157} INFO - Started process (PID=6248) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:46:52.089+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:46:52.089+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:46:52.089+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:46:53.376+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:46:53.543+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:46:53.542+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:46:53.577+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:46:53.577+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:46:53.612+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.530 seconds
+[2023-07-13T12:47:24.368+0000] {processor.py:157} INFO - Started process (PID=6317) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:47:24.377+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:47:24.378+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:47:24.377+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:47:26.259+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:47:26.293+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:47:26.292+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:47:26.321+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:47:26.321+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:47:26.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.996 seconds
+[2023-07-13T12:47:56.423+0000] {processor.py:157} INFO - Started process (PID=6386) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:47:56.425+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:47:56.426+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:47:56.426+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:47:58.086+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:47:58.120+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:47:58.120+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:47:58.161+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:47:58.161+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:47:58.188+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.770 seconds
+[2023-07-13T12:48:08.601+0000] {processor.py:157} INFO - Started process (PID=6419) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:48:08.602+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:48:08.604+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:48:08.603+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:48:09.565+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:48:09.824+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:48:09.823+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:48:09.860+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:48:09.860+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:48:09.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.324 seconds
+[2023-07-13T12:48:40.153+0000] {processor.py:157} INFO - Started process (PID=6481) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:48:40.154+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:48:40.155+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:48:40.155+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:48:41.514+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:48:41.550+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:48:41.550+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:48:41.576+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:48:41.576+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:48:41.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.450 seconds
+[2023-07-13T12:49:11.756+0000] {processor.py:157} INFO - Started process (PID=6545) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:49:11.757+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:49:11.762+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:49:11.761+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:49:13.654+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:49:13.705+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:49:13.705+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:49:13.742+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:49:13.742+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:49:13.775+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.023 seconds
+[2023-07-13T12:49:43.988+0000] {processor.py:157} INFO - Started process (PID=6620) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:49:44.004+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:49:44.010+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:49:44.010+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:49:46.952+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:49:47.106+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:49:47.106+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:49:47.229+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:49:47.229+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:49:47.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.323 seconds
+[2023-07-13T12:50:18.208+0000] {processor.py:157} INFO - Started process (PID=6696) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:50:18.212+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:50:18.215+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:50:18.214+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:50:25.421+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:50:25.577+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:50:25.576+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:50:25.913+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:50:25.912+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:50:26.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 7.902 seconds
+[2023-07-13T12:50:56.770+0000] {processor.py:157} INFO - Started process (PID=6778) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:50:56.772+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:50:56.773+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:50:56.773+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:50:58.666+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:50:58.827+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:50:58.826+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:50:58.939+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:50:58.937+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:50:59.037+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.274 seconds
+[2023-07-13T12:51:29.205+0000] {processor.py:157} INFO - Started process (PID=6842) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:51:29.207+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:51:29.208+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:51:29.208+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:51:30.328+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:51:30.368+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:51:30.368+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:51:30.399+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:51:30.399+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:51:30.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.225 seconds
+[2023-07-13T12:52:00.562+0000] {processor.py:157} INFO - Started process (PID=6904) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:52:00.577+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:52:00.593+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:52:00.593+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:52:02.056+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:52:02.097+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:52:02.096+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:52:02.125+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:52:02.125+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:52:02.147+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.592 seconds
+[2023-07-13T12:52:32.222+0000] {processor.py:157} INFO - Started process (PID=6966) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:52:32.224+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:52:32.226+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:52:32.226+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:52:33.484+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:52:33.518+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:52:33.517+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:52:33.545+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:52:33.545+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:52:33.568+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.352 seconds
+[2023-07-13T12:53:03.750+0000] {processor.py:157} INFO - Started process (PID=7035) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:53:03.752+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:53:03.753+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:53:03.753+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:53:04.802+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:53:04.837+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:53:04.836+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:53:04.863+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:53:04.862+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:53:04.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.137 seconds
+[2023-07-13T12:53:35.055+0000] {processor.py:157} INFO - Started process (PID=7098) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:53:35.056+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:53:35.057+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:53:35.057+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:53:36.047+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:53:36.081+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:53:36.080+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:53:36.111+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:53:36.111+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:53:36.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.089 seconds
+[2023-07-13T12:54:06.890+0000] {processor.py:157} INFO - Started process (PID=7160) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:54:06.892+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:54:06.893+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:54:06.892+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:54:07.913+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:54:07.948+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:54:07.947+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:54:07.974+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:54:07.973+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:54:07.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.113 seconds
+[2023-07-13T12:54:38.329+0000] {processor.py:157} INFO - Started process (PID=7224) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:54:38.331+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:54:38.332+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:54:38.332+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:54:39.391+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:54:39.423+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:54:39.422+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:54:39.448+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:54:39.448+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:54:39.473+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.154 seconds
+[2023-07-13T12:55:09.796+0000] {processor.py:157} INFO - Started process (PID=7286) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:55:09.800+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:55:09.802+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:55:09.801+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:55:14.241+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:55:14.354+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:55:14.353+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:55:14.431+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:55:14.431+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:55:14.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 4.696 seconds
+[2023-07-13T12:55:45.225+0000] {processor.py:157} INFO - Started process (PID=7363) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:55:45.231+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:55:45.233+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:55:45.233+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:55:49.772+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:55:49.947+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:55:49.942+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:55:50.046+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:55:50.046+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:55:50.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 4.889 seconds
+[2023-07-13T12:56:20.215+0000] {processor.py:157} INFO - Started process (PID=7440) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:56:20.220+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:56:20.222+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:56:20.221+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:56:23.419+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:56:23.561+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:56:23.560+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:56:23.694+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:56:23.694+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:56:23.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.595 seconds
+[2023-07-13T12:56:54.091+0000] {processor.py:157} INFO - Started process (PID=7527) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:56:54.094+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:56:54.098+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:56:54.098+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:57:26.154+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:57:25.798+0000] {timeout.py:68} ERROR - Process timed out, PID: 7527
+[2023-07-13T12:57:31.665+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:57:27.752+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dagfile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dagfile.py", line 27, in <module>
+    from src.preprocess.split_dataframe import split_dataframe
+  File "/opt/airflow/dags/src/preprocess/split_dataframe.py", line 5, in <module>
+    from sklearn.model_selection import train_test_split
+  File "/home/airflow/.local/lib/python3.7/site-packages/sklearn/__init__.py", line 82, in <module>
+    from .base import clone
+  File "/home/airflow/.local/lib/python3.7/site-packages/sklearn/base.py", line 17, in <module>
+    from .utils import _IS_32BIT
+  File "/home/airflow/.local/lib/python3.7/site-packages/sklearn/utils/__init__.py", line 28, in <module>
+    from .fixes import np_version, parse_version
+  File "/home/airflow/.local/lib/python3.7/site-packages/sklearn/utils/fixes.py", line 20, in <module>
+    import scipy.stats
+  File "/home/airflow/.local/lib/python3.7/site-packages/scipy/stats/__init__.py", line 448, in <module>
+    from . import qmc
+  File "/home/airflow/.local/lib/python3.7/site-packages/scipy/stats/qmc.py", line 234, in <module>
+    from ._qmc import *
+  File "/home/airflow/.local/lib/python3.7/site-packages/scipy/stats/_qmc.py", line 34, in <module>
+    from scipy.stats._qmc_cy import (
+  File "<frozen importlib._bootstrap>", line 416, in parent
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dagfile.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.6.2/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.6.2/best-practices.html#reducing-dag-complexity, PID: 7527
+[2023-07-13T12:57:31.777+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:57:34.986+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 40.904 seconds
+[2023-07-13T12:58:05.245+0000] {processor.py:157} INFO - Started process (PID=7598) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:58:05.249+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:58:05.250+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:58:05.250+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:58:07.567+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:58:07.974+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:58:07.973+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:58:08.033+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:58:08.028+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:58:08.099+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.864 seconds
+[2023-07-13T12:58:38.568+0000] {processor.py:157} INFO - Started process (PID=7665) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:58:38.573+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:58:38.574+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:58:38.573+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:58:40.022+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:58:40.138+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:58:40.136+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:58:40.249+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:58:40.248+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:58:40.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.768 seconds
+[2023-07-13T12:59:10.693+0000] {processor.py:157} INFO - Started process (PID=7728) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:59:10.694+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:59:10.695+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:59:10.695+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:59:13.642+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:59:13.751+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:59:13.750+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:59:13.803+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:59:13.802+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:59:13.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.210 seconds
+[2023-07-13T12:59:44.122+0000] {processor.py:157} INFO - Started process (PID=7793) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T12:59:44.123+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T12:59:44.124+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:59:44.124+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:59:46.091+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T12:59:46.157+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:59:46.156+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T12:59:46.212+0000] {logging_mixin.py:149} INFO - [2023-07-13T12:59:46.211+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T12:59:46.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.157 seconds
+[2023-07-13T13:00:16.681+0000] {processor.py:157} INFO - Started process (PID=7861) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:00:16.683+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:00:16.684+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:00:16.684+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:00:19.749+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:00:20.427+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:00:20.427+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:00:20.511+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:00:20.510+0000] {dag.py:2747} INFO - Creating ORM DAG for thyroid_preprocessing_DAG
+[2023-07-13T13:00:20.581+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:00:20.580+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:00:20.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 4.087 seconds
+[2023-07-13T13:00:51.680+0000] {processor.py:157} INFO - Started process (PID=7930) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:00:51.682+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:00:51.683+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:00:51.683+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:00:54.488+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:00:54.622+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:00:54.621+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:00:54.697+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:00:54.697+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:00:54.773+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.098 seconds
+[2023-07-13T13:01:25.360+0000] {processor.py:157} INFO - Started process (PID=7998) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:01:25.362+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:01:25.363+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:01:25.363+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:01:26.981+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:01:27.044+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:01:27.043+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:01:27.094+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:01:27.094+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:01:27.158+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.805 seconds
+[2023-07-13T13:01:57.514+0000] {processor.py:157} INFO - Started process (PID=8071) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:01:57.521+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:01:57.522+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:01:57.522+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:02:00.100+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:02:00.159+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:02:00.158+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:02:00.204+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:02:00.204+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:02:00.236+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.742 seconds
+[2023-07-13T13:02:30.344+0000] {processor.py:157} INFO - Started process (PID=8163) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:02:30.346+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:02:30.346+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:02:30.346+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:02:32.061+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:02:32.150+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:02:32.148+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:02:32.203+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:02:32.203+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:02:32.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.912 seconds
+[2023-07-13T13:03:02.694+0000] {processor.py:157} INFO - Started process (PID=8229) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:03:02.701+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:03:02.701+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:03:02.701+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:03:04.171+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:03:04.214+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:03:04.213+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:03:04.246+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:03:04.246+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:03:04.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.583 seconds
+[2023-07-13T13:03:34.421+0000] {processor.py:157} INFO - Started process (PID=8298) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:03:34.430+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:03:34.431+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:03:34.431+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:03:35.979+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:03:36.055+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:03:36.053+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:03:36.088+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:03:36.088+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:03:36.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.716 seconds
+[2023-07-13T13:04:06.906+0000] {processor.py:157} INFO - Started process (PID=8364) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:04:06.907+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:04:06.908+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:04:06.908+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:04:07.758+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:04:07.794+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:04:07.793+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:04:07.824+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:04:07.824+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:04:07.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.946 seconds
+[2023-07-13T13:04:38.543+0000] {processor.py:157} INFO - Started process (PID=8426) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:04:38.544+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:04:38.545+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:04:38.544+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:04:39.457+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:04:39.501+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:04:39.500+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:04:39.538+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:04:39.538+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:04:39.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.021 seconds
+[2023-07-13T13:05:09.844+0000] {processor.py:157} INFO - Started process (PID=8496) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:05:09.845+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:05:09.846+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:05:09.845+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:05:10.741+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:05:10.773+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:05:10.772+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:05:10.798+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:05:10.798+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:05:10.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.979 seconds
+[2023-07-13T13:05:40.944+0000] {processor.py:157} INFO - Started process (PID=8563) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:05:40.948+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:05:40.949+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:05:40.949+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:05:42.089+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:05:42.135+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:05:42.134+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:05:42.172+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:05:42.171+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:05:42.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.270 seconds
+[2023-07-13T13:06:12.815+0000] {processor.py:157} INFO - Started process (PID=8625) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:06:12.817+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:06:12.819+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:06:12.818+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:06:14.267+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:06:14.306+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:06:14.304+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:06:14.334+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:06:14.334+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:06:14.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.551 seconds
+[2023-07-13T13:06:45.192+0000] {processor.py:157} INFO - Started process (PID=8688) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:06:45.193+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:06:45.194+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:06:45.194+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:06:46.165+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:06:46.199+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:06:46.198+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:06:46.225+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:06:46.225+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:06:46.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.061 seconds
+[2023-07-13T13:07:16.555+0000] {processor.py:157} INFO - Started process (PID=8768) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:07:16.559+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:07:16.561+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:07:16.560+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:07:19.528+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:07:19.600+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:07:19.599+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:07:19.652+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:07:19.652+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:07:19.693+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 3.147 seconds
+[2023-07-13T13:08:08.737+0000] {processor.py:157} INFO - Started process (PID=8825) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:08:08.740+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:08:08.741+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:08:08.741+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:08:15.195+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:08:15.308+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:08:15.307+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:08:15.382+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:08:15.381+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:08:15.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 6.732 seconds
+[2023-07-13T13:08:46.043+0000] {processor.py:157} INFO - Started process (PID=8893) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:08:46.044+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:08:46.045+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:08:46.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:08:47.773+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:08:47.837+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:08:47.837+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:08:47.881+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:08:47.881+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:08:47.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.880 seconds
+[2023-07-13T13:09:18.219+0000] {processor.py:157} INFO - Started process (PID=8960) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:09:18.224+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:09:18.225+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:09:18.225+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:09:19.727+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:09:19.775+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:09:19.774+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:09:19.807+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:09:19.807+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:09:19.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.617 seconds
+[2023-07-13T13:09:49.929+0000] {processor.py:157} INFO - Started process (PID=9025) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:09:49.930+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:09:49.931+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:09:49.931+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:09:50.873+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:09:50.907+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:09:50.906+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:09:50.934+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:09:50.933+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:09:50.955+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.031 seconds
+[2023-07-13T13:10:21.454+0000] {processor.py:157} INFO - Started process (PID=9090) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:10:21.456+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:10:21.457+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:10:21.457+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:10:22.329+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:10:22.363+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:10:22.362+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:10:22.389+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:10:22.388+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:10:22.410+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.964 seconds
+[2023-07-13T13:10:52.541+0000] {processor.py:157} INFO - Started process (PID=9157) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:10:52.543+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:10:52.544+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:10:52.543+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:10:53.594+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:10:53.633+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:10:53.630+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:10:53.667+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:10:53.666+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:10:53.688+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.152 seconds
+[2023-07-13T13:11:24.113+0000] {processor.py:157} INFO - Started process (PID=9223) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:11:24.114+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:11:24.115+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:11:24.115+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:11:24.994+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:11:25.026+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:11:25.025+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:11:25.054+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:11:25.054+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:11:25.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.981 seconds
+[2023-07-13T13:11:55.163+0000] {processor.py:157} INFO - Started process (PID=9291) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:11:55.165+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:11:55.166+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:11:55.166+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:11:56.005+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:11:56.041+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:11:56.040+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:11:56.067+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:11:56.067+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:11:56.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.932 seconds
+[2023-07-13T13:12:26.562+0000] {processor.py:157} INFO - Started process (PID=9352) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:12:26.565+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:12:26.566+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:12:26.566+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:12:27.454+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:12:27.490+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:12:27.490+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:12:27.516+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:12:27.516+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:12:27.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.984 seconds
+[2023-07-13T13:12:57.597+0000] {processor.py:157} INFO - Started process (PID=9414) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:12:57.599+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:12:57.600+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:12:57.600+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:12:58.462+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:12:58.498+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:12:58.496+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:12:58.524+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:12:58.524+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:12:58.547+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.957 seconds
+[2023-07-13T13:13:29.593+0000] {processor.py:157} INFO - Started process (PID=9484) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:13:29.594+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:13:29.595+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:13:29.595+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:13:30.418+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:13:30.454+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:13:30.453+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:13:30.483+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:13:30.483+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:13:30.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.919 seconds
+[2023-07-13T13:14:00.619+0000] {processor.py:157} INFO - Started process (PID=9546) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:14:00.623+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:14:00.626+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:14:00.625+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:14:03.218+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:14:03.291+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:14:03.290+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:14:03.363+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:14:03.363+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:14:03.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.835 seconds
+[2023-07-13T13:14:33.607+0000] {processor.py:157} INFO - Started process (PID=9608) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:14:33.609+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:14:33.610+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:14:33.610+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:14:34.794+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:14:34.835+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:14:34.834+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:14:34.864+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:14:34.864+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:14:34.898+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.296 seconds
+[2023-07-13T13:15:05.878+0000] {processor.py:157} INFO - Started process (PID=9670) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:05.881+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:15:05.881+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:05.881+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:06.850+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:06.902+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:06.902+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:15:06.940+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:06.939+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:15:06.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.096 seconds
+[2023-07-13T13:15:13.027+0000] {processor.py:157} INFO - Started process (PID=9688) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:13.029+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:15:13.030+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:13.030+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:14.112+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:14.161+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:14.157+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:15:14.194+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:14.193+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:15:14.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.203 seconds
+[2023-07-13T13:15:44.802+0000] {processor.py:157} INFO - Started process (PID=9750) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:44.816+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:15:44.817+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:44.817+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:46.156+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:46.198+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:46.198+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:15:46.229+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:46.229+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:15:46.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.458 seconds
+[2023-07-13T13:15:59.017+0000] {processor.py:157} INFO - Started process (PID=9787) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:15:59.019+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:15:59.020+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:15:59.019+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:16:00.450+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:16:00.531+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:16:00.531+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:16:00.562+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:16:00.562+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:16:00.586+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.579 seconds
+[2023-07-13T13:16:31.422+0000] {processor.py:157} INFO - Started process (PID=9855) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:16:31.425+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:16:31.426+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:16:31.426+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:16:32.636+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:16:32.683+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:16:32.683+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:16:32.730+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:16:32.730+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:16:32.770+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.353 seconds
+[2023-07-13T13:17:03.170+0000] {processor.py:157} INFO - Started process (PID=9948) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:17:03.173+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:17:03.175+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:17:03.174+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:17:08.111+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:17:08.228+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:17:08.227+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:17:08.303+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:17:08.303+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:17:08.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 5.219 seconds
+[2023-07-13T13:17:38.834+0000] {processor.py:157} INFO - Started process (PID=10016) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:17:38.840+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:17:38.841+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:17:38.841+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:17:39.865+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:17:39.903+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:17:39.902+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:17:39.932+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:17:39.932+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:17:39.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.127 seconds
+[2023-07-13T13:18:10.793+0000] {processor.py:157} INFO - Started process (PID=10079) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:18:10.794+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:18:10.795+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:18:10.795+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:18:12.112+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:18:12.166+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:18:12.165+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:18:12.204+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:18:12.204+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:18:12.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.439 seconds
+[2023-07-13T13:18:43.117+0000] {processor.py:157} INFO - Started process (PID=10148) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:18:43.120+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:18:43.121+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:18:43.121+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:18:44.145+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:18:44.181+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:18:44.180+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:18:44.211+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:18:44.210+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:18:44.235+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.124 seconds
+[2023-07-13T13:19:15.063+0000] {processor.py:157} INFO - Started process (PID=10211) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:19:15.065+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:19:15.067+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:19:15.066+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:19:15.911+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:19:15.944+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:19:15.944+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:19:15.971+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:19:15.971+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:19:15.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.938 seconds
+[2023-07-13T13:19:46.394+0000] {processor.py:157} INFO - Started process (PID=10273) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:19:46.396+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:19:46.397+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:19:46.397+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:19:47.209+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:19:47.252+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:19:47.250+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:19:47.284+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:19:47.284+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:19:47.308+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.920 seconds
+[2023-07-13T13:20:17.984+0000] {processor.py:157} INFO - Started process (PID=10335) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:20:17.989+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:20:17.990+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:20:17.990+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:20:18.870+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:20:18.903+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:20:18.903+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:20:18.931+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:20:18.931+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:20:18.953+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.975 seconds
+[2023-07-13T13:20:49.276+0000] {processor.py:157} INFO - Started process (PID=10397) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:20:49.278+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:20:49.279+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:20:49.278+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:20:50.236+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:20:50.270+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:20:50.270+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:20:50.295+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:20:50.295+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:20:50.319+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 1.050 seconds
+[2023-07-13T13:21:20.740+0000] {processor.py:157} INFO - Started process (PID=10460) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:21:20.741+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:21:20.742+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:21:20.742+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:21:21.640+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:21:21.674+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:21:21.673+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:21:21.702+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:21:21.701+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:21:21.725+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.990 seconds
+[2023-07-13T13:21:51.780+0000] {processor.py:157} INFO - Started process (PID=10527) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:21:51.781+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:21:51.782+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:21:51.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:21:52.637+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:21:52.671+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:21:52.670+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:21:52.697+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:21:52.697+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:21:52.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.944 seconds
+[2023-07-13T13:22:23.275+0000] {processor.py:157} INFO - Started process (PID=10589) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:22:23.276+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:22:23.277+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:22:23.276+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:22:24.139+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:22:24.173+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:22:24.172+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:22:24.200+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:22:24.200+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:22:24.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.952 seconds
+[2023-07-13T13:22:54.761+0000] {processor.py:157} INFO - Started process (PID=10652) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:22:54.764+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:22:54.765+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:22:54.764+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:22:55.590+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:22:55.624+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:22:55.624+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:22:55.651+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:22:55.651+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:22:55.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.927 seconds
+[2023-07-13T13:23:26.352+0000] {processor.py:157} INFO - Started process (PID=10715) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:23:26.353+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:23:26.354+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:23:26.353+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:23:27.224+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:23:27.266+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:23:27.265+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:23:27.293+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:23:27.293+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:23:27.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 0.972 seconds
+[2023-07-13T13:23:58.086+0000] {processor.py:157} INFO - Started process (PID=10780) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:23:58.087+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:23:58.088+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:23:58.088+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:23:59.981+0000] {processor.py:836} INFO - DAG(s) dict_keys(['thyroid_preprocessing_DAG']) retrieved from /opt/airflow/dags/dagfile.py
+[2023-07-13T13:24:00.050+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:24:00.050+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-13T13:24:00.095+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:24:00.095+0000] {dag.py:3490} INFO - Setting next_dagrun for thyroid_preprocessing_DAG to None, run_after=None
+[2023-07-13T13:24:00.147+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dagfile.py took 2.069 seconds
+[2023-07-13T13:24:30.530+0000] {processor.py:157} INFO - Started process (PID=10844) to work on /opt/airflow/dags/dagfile.py
+[2023-07-13T13:24:30.531+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dagfile.py for tasks to queue
+[2023-07-13T13:24:30.532+0000] {logging_mixin.py:149} INFO - [2023-07-13T13:24:30.532+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dagfile.py
