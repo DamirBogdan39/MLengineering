@@ -28,7 +28,7 @@ def fit_xgboost(ti):
 
 
     # Create an XGBoost classifier
-    xgb_model = XGBClassifier()
+    xgb_model = XGBClassifier(random_state=42)
 
     # Create a GridSearchCV object
     grid_search = GridSearchCV(estimator=xgb_model, param_grid=param_grid, scoring="balanced_accuracy", cv=5, n_jobs=-1)

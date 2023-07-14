@@ -1,0 +1,16 @@
+[2023-07-14T09:37:50.815+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.encode_y_test manual__2023-07-14T09:37:14.384705+00:00 [queued]>
+[2023-07-14T09:37:50.832+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thyroid_preprocessing_DAG.encode_y_test manual__2023-07-14T09:37:14.384705+00:00 [queued]>
+[2023-07-14T09:37:50.832+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-14T09:37:50.858+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): encode_y_test> on 2023-07-14 09:37:14.384705+00:00
+[2023-07-14T09:37:50.869+0000] {standard_task_runner.py:57} INFO - Started process 127 to run task
+[2023-07-14T09:37:50.877+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thyroid_preprocessing_DAG', 'encode_y_test', 'manual__2023-07-14T09:37:14.384705+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/dagfile.py', '--cfg-path', '/tmp/tmpxxgs4twb']
+[2023-07-14T09:37:50.877+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask encode_y_test
+[2023-07-14T09:37:50.983+0000] {task_command.py:410} INFO - Running <TaskInstance: thyroid_preprocessing_DAG.encode_y_test manual__2023-07-14T09:37:14.384705+00:00 [running]> on host 6e90c79fcee2
+[2023-07-14T09:37:51.121+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='damirbogdan39@gmail.com' AIRFLOW_CTX_DAG_OWNER='aiflow' AIRFLOW_CTX_DAG_ID='thyroid_preprocessing_DAG' AIRFLOW_CTX_TASK_ID='encode_y_test' AIRFLOW_CTX_EXECUTION_DATE='2023-07-14T09:37:14.384705+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-14T09:37:14.384705+00:00'
+[2023-07-14T09:37:51.153+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/sklearn/preprocessing/_label.py:115: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+
+[2023-07-14T09:37:51.186+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-14T09:37:51.200+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=thyroid_preprocessing_DAG, task_id=encode_y_test, execution_date=20230714T093714, start_date=20230714T093750, end_date=20230714T093751
+[2023-07-14T09:37:51.259+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-14T09:37:51.316+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
