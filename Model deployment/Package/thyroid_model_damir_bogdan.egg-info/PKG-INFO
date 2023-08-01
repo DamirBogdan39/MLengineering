@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: thyroid-model-damir-bogdan
+Version: 0.1.0
+Summary: Pretrained thyroid model and pipeline for classification
+Author: Damir Bogdan
+Author-email: damribogdan39@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Thyroid classification package 
+
+This package contains a sklearn pipeline that incorporates necessary preprocessing steps and a XGBoost classification model 
+used to perform a classification for the Thyroid data set. 
+
+To use the package use the following commands:
+
+```python
+# To import use:
+from thyroid_model_damir_bogdan.load_pipeline import *
+from thyroid_model_damir_bogdan.load_label_encoder import load_label_encoder
+
+# To load pipeline and encoder use:
+pipeline = load_pipeline()
+encoder = load_label_encoder()
+
+# To predict use:
+y_pred = pipeline.predict(X) # X is a dataframe object of features
+y_encoded = encoder.inverse_transform(y_pred)
+```

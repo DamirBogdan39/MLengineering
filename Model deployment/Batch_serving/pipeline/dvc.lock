@@ -1,0 +1,34 @@
+schema: '2.0'
+stages:
+  pipeline:
+    cmd: python3 ../src/pipe_predict.py
+    deps:
+    - path: ../data/raw/raw_data.csv
+      hash: md5
+      md5: a8d35d39520b96eea26120ceaa1592b7
+      size: 80794
+    - path: ../src/pipe_predict.py
+      hash: md5
+      md5: d37590341fd84bf6e912427a0d208225
+      size: 657
+    outs:
+    - path: ../data/predicted/pipe_predicted.csv
+      hash: md5
+      md5: 6196599758b9d94d3ac072d6c025283b
+      size: 2264
+  encoder:
+    cmd: python3 ../src/label_encode.py
+    deps:
+    - path: ../data/predicted/pipe_predicted.csv
+      hash: md5
+      md5: 6196599758b9d94d3ac072d6c025283b
+      size: 2264
+    - path: ../src/label_encode.py
+      hash: md5
+      md5: cba6c94b601214e00e0a8e191428b3e2
+      size: 750
+    outs:
+    - path: ../data/predicted/label_predictions.csv
+      hash: md5
+      md5: b74ded177a63d1484d338a86d4d3ec87
+      size: 11293

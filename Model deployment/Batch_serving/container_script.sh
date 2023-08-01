@@ -1,0 +1,1 @@
+dvc init --no-scm

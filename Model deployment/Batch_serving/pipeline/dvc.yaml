@@ -1,0 +1,15 @@
+stages:
+  pipeline:
+    cmd: python3 ../src/pipe_predict.py
+    deps:
+    - ../src/pipe_predict.py
+    - ../data/raw/raw_data.csv
+    outs:
+    - ../data/predicted/pipe_predicted.csv
+  encoder:
+    cmd: python3 ../src/label_encode.py
+    deps:
+    - ../data/predicted/pipe_predicted.csv
+    - ../src/label_encode.py
+    outs:
+    - ../data/predicted/label_predictions.csv
